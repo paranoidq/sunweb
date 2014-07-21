@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<filter>
+		<filter-name>initBaseInfoFilter</filter-name>
+		<filter-class>cn.seu.cose.filter.InitBaseInfoFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>initBaseInfoFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>designerFilter</filter-name>
+		<filter-class>cn.seu.cose.filter.DesignerFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>designerFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>reporterFilter</filter-name>
+		<filter-class>cn.seu.cose.filter.ReporterFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>reporterFilter</filter-name>
+		<url-pattern>/reporter/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>adminFilter</filter-name>
+		<filter-class>cn.seu.cose.filter.AdminFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>adminFilter</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+	
+	<listener>
+	      <listener-class>cn.seu.cose.listener.InitSystemListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring-mvc/application-view.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
