@@ -1,13 +1,13 @@
 package com.sunweb.view.util;
 
 public class ViewUtil {
-/*	public static String CONTEXT_PATH = "";
+	public static String CONTEXT_PATH = "";
 
 	public static String getContextPath() {
 		return CONTEXT_PATH;
 	}
 
-	public static String getBreadcrumb(int catId) {
+	/*public static String getBreadcrumb(int catId) {
 		CategoryPojo curCat = CategoryCache.get(catId);
 		if (curCat.getCatLevel() == 1) {
 			return "<h2 style='padding: 10px 0 10px 0;'><a href='"
