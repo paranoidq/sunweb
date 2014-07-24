@@ -1,11 +1,13 @@
-package com.sunweb.controller;
+package com.aentropi.controller;
+
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.sunweb.service.HomepageService;
+import com.aentropi.service.HomepageService;
 
 
 @Controller
@@ -15,8 +17,8 @@ public class HomepageController {
 	HomepageService hpService;
 	
 	
-	@RequestMapping(value="/index", method=RequestMethod.GET)
-	public String DisplayHomepage() {
+	@RequestMapping("/aentropi")
+	public String DisplayHomepage(Model model, HttpServletResponse response) {
 		
 		return "homepage";
 	}

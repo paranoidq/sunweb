@@ -1,4 +1,4 @@
-package com.sunweb.util;
+package com.aentropi.util;
 
 public class Constant {
 	public static final String DOMAIN_ROOT = "http://gw.seu.edu.cn/nauty";

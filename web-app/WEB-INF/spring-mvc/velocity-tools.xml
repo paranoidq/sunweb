@@ -17,6 +17,6 @@
 
     <toolbox scope="application">
         <!-- <tool key="map" class="java.util.HashMap"/> -->
-        <tool key="viewUtil" class="cn.seu.cose.view.util.ViewUtil"/>
+        <tool key="viewUtil" class="com.aentropi.view.util.ViewUtil"/>
     </toolbox>
 </tools>

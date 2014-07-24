@@ -1,4 +1,4 @@
-package com.sunweb.listener;
+package com.aentropi.listener;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -6,7 +6,8 @@ import javax.servlet.ServletContextListener;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.sunweb.view.util.ViewUtil;
+import com.aentropi.core.SystemContainer;
+import com.aentropi.view.util.ViewUtil;
 
 public class InitSystemListener implements ServletContextListener {
 
@@ -19,7 +20,7 @@ public class InitSystemListener implements ServletContextListener {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
 				"/config.xml");
 		ViewUtil.CONTEXT_PATH = event.getServletContext().getContextPath();
-		//SystemContainer.setApplicationContext(applicationContext);
+		SystemContainer.setApplicationContext(applicationContext);
 
 		//CategoryCache.init();
 	}

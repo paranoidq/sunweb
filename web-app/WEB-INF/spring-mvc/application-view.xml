@@ -20,7 +20,6 @@
 			http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
 	<import resource="classpath:config.xml" />
-
 	<mvc:resources mapping="/static/**" location="/static/"/>
 	<!-- also add the following beans to get rid of some exceptions -->
 	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
@@ -41,7 +40,7 @@
 		<property name="toolboxConfigLocation" value="/WEB-INF/spring-mvc/velocity-tools.xml" />
 		<!-- 配置工具类 -->
         <property name="viewClass"
-            value="cn.seu.cose.view.velocity.VelocityLayoutView" />
+            value="com.aentropi.view.velocity.VelocityLayoutView" />
     </bean>
 	
 	<!-- 支持上传文件 -->  

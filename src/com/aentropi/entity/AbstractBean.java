@@ -1,4 +1,4 @@
-package com.sunweb.entity;
+package com.aentropi.entity;
 
 public class AbstractBean {
 

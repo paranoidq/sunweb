@@ -1,4 +1,4 @@
-package com.sunweb.service;
+package com.aentropi.service;
 
 import org.springframework.stereotype.Service;
 

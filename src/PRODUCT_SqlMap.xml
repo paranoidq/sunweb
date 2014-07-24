@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+ "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="PRODUCT">
+	<!-- 为类型定义别名 -->
+	<typeAlias alias="product" type="com.aentropi.entity.ProductBean" />
+	<!-- 定义resultMap,将query结果映射为bean -->
+	<resultMap id="ProductResultMap" class="product">
+		<result property="id" column="ID"/>
+		<result property="name" column="NAME"/>
+		<result property="desc" column="DESC" nullValue=""/>
+		<result property="images" column="IMAGES" nullValue=""/>
+	</resultMap>
+	
+	<!--<select id="selectArticleById" resultMap="ArticleResultMap" parameterClass="int">
+		<![CDATA[
+		SELECT a.id,a.title,a.subhead,a.cat_id,a.root_cat_id,a.content,a.pure_text,a.from,a.post_time,b.uri_name, a.contributed_from, a.status
+		FROM ARTICLE a,category b
+		WHERE a.id=#value# AND a.root_cat_id=b.id
+		]]>
+	</select>-->
+	
+</sqlMap>

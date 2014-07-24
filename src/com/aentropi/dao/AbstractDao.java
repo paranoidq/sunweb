@@ -1,4 +1,4 @@
-package com.sunweb.dao;
+package com.aentropi.dao;
 
 public class AbstractDao {
 

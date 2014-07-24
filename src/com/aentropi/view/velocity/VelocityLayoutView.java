@@ -1,4 +1,4 @@
-package com.sunweb.view.velocity;
+package com.aentropi.view.velocity;
 
 import java.util.Map;
 

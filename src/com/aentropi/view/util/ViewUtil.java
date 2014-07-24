@@ -1,4 +1,4 @@
-package com.sunweb.view.util;
+package com.aentropi.view.util;
 
 public class ViewUtil {
 	public static String CONTEXT_PATH = "";
