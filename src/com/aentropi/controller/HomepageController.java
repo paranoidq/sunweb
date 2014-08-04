@@ -16,10 +16,9 @@ public class HomepageController {
 	@Autowired
 	HomepageService hpService;
 	
-	
 	@RequestMapping("/aentropi")
 	public String DisplayHomepage(Model model, HttpServletResponse response) {
-		
+		//
 		return "homepage";
 	}
 	
