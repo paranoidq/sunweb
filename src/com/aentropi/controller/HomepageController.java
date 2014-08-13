@@ -18,7 +18,7 @@ public class HomepageController {
 	
 	@RequestMapping("/")
 	public String DisplayHomepage(Model model, HttpServletResponse response) {
-		//
+		///
 		return "web/homepage";
 	}
 	
