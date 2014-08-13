@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+
+#parse("web/common/head.vm")
+
+<body>
+	#parse("web/common/header.vm")
+	
+	<div style="width:960px;height:291px;margin:0 auto;position:relative;">
+		<!-- Banner Begin -->
+		<div id="index_banner" class="index_banner" style="position:absolute;top:0;left:0;z-index:88;width:960px;height:251px;"></div>
+		<!-- Banner End -->
+		
+		#parse("web/common/navi.vm")
+		
+	</div>
+		
+	<div class="index_content">
+		<!-- Content News Begin -->
+		<div class="index_news">
+			<div class="index_content_title"><img src="$!{viewUtil.getContextPath()}/static/images/index_news.jpg"></div>
+			<ul>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=288" target="_blank">JA Solar P-Type Mono-Si Solar Cells Surpass 20% Conversion Efficiency</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=287" target="_blank">JA Solar to Supply 38.6 MW of Modules to Phoenix Solar for Georgia Solar Farm</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=285" target="_blank">JA Solar Multi-Si Solar Cells Reach Record Efficiency Levels</a></li>
+			</ul>
+		</div>
+		<!-- Content News End -->
+	
+		<!-- Content Product Begin -->
+		<div class="index_products">
+			<div class="index_content_title"><a href="/webroot/products/"><img src="$!{viewUtil.getContextPath()}/static/images/index_products.jpg"></a></div>
+			<table cellspacing="0" cellpadding="0" class="index_product_data">
+				<tbody>
+				<tr>
+					<td class="pname"><a class="aWhite" href="/webroot/products/">Cell</a></td>
+					<td class="pdesc"><a class="aWhite" href="/webroot/products/">Mono Series</a> <br>  <!--<a class="aWhite" href="/webroot/products/" >Quasi-mono Series</a> <br/>--> <a class="aWhite" href="/webroot/products/">Poly Series</a></td>
+				</tr>
+				<tr>
+					<td class="pname"><a class="aWhite" href="/webroot/products/modules.php">Module</a></td>
+					<td class="pdesc"><a class="aWhite" href="/webroot/products/modules.php">Mono-Crystalline Silicon Module</a> <br> <a class="aWhite" href="/webroot/products/modules.php">Poly-Crystalline Silicon Module</a><br> <a class="aWhite" href="/webroot/products/modules.php">Module Type For USA Market</a></td>
+				</tr>
+				<tr>
+					<td class="pname"><a class="aWhite" href="/webroot/products/overview.php">PV System</a></td>
+					<td class="pdesc"><a class="aWhite" href="/webroot/products/overview.php">Services</a> <br> <a class="aWhite" href="/webroot/products/overview.php">Cases</a></td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Content Product End -->
+		<div class="clear"></div>
+	</div>
+	<!-- Content End -->
+	
+	#parse("web/common/footer.vm")
+</body>
+
+<script language="JavaScript">
+	var data = [{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_04_en.jpg",href:"#",target:""},
+	            {title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_05_en.jpg",href:"#",target:""},
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg",href:"#",target:""}];
+	$('#index_banner').d_imagechange({
+		data:data,
+		playTime:5000,
+		animateTime:1000,
+		desc:false,
+		title:false,
+		btn:false,
+		bg:false,
+		width:960,
+		height:251,
+		animateStyle:'o'//默认值'o',可以不写
+	});
+
+	if(typeof(MenuMoveWithScroll)=="function"){
+		window.setTimeout(MenuMoveWithScroll,1);
+	}
+
+</script>
+
+</html>

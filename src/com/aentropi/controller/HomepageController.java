@@ -16,10 +16,10 @@ public class HomepageController {
 	@Autowired
 	HomepageService hpService;
 	
-	@RequestMapping("/aentropi")
+	@RequestMapping("/")
 	public String DisplayHomepage(Model model, HttpServletResponse response) {
 		//
-		return "homepage";
+		return "web/homepage";
 	}
 	
 }

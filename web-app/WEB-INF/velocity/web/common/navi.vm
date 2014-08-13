@@ -1,0 +1,29 @@
+<div id="nav" class="nav" style="position:absolute;top:235px;left:0;z-index:99;">
+	<div class="nav_content">
+		<div class="logo"><img src="$!{viewUtil.getContextPath()}/static/images/logo.jpg"></div>
+		
+		<div class="menu">
+			<ul>
+				<li class="first">
+					<a href="/"><img src="$!{viewUtil.getContextPath()}/static/images/icon/home.jpg"/></a>
+				</li>
+				<li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
+					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
+						<font style="font-size:14px;">Products</font>
+					</a>
+				</li>
+				<li onmouseover="ShowPopNav(3,this)" onmouseout="HidePopNav(3,this)">
+					<a href="$!{viewUtil.getContextPath()}/company" class="aWhite no_underline">
+						<font style="font-size:14px;">Company</font>
+					</a>
+				</li>
+				<li onmouseover="ShowPopNav(3,this)" onmouseout="HidePopNav(3,this)">
+					<a href="$!{viewUtil.getContextPath()}/contact" class="aWhite no_underline">
+						<font style="font-size:14px;">Contact</font>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>

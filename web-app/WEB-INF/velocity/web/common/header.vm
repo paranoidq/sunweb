@@ -1,0 +1,13 @@
+<div class="header">
+	<div class="head_tools">
+		<form action="/webroot/search.php" method="post"> 
+			<div id="langdiv" style="float:right;margin-top:3px; display:none" onmouseout="HideLang()" onmouseover="clearHide()">
+				<ul>
+					<li><a href="/">English</a></li>
+					<li><a href="/JP">日本語</a></li>
+				</ul>
+			</div>
+		</form>
+		<div class="clear"></div>
+	</div>
+</div>

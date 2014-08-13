@@ -1,0 +1,47 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>aentropi</title>
+<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/aentropi.style.en.css" type="text/css">
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/common.js"></script>
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/autoscroll.js"></script>
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/jquery.d.imagechange.js"></script>
+
+<script type="text/javascript">
+	var stop = false;
+	
+	function ShowPopNav(navid,obj)
+	{	
+		link.addClass("nav_a_"+navid);
+		
+		/*var li = $(obj);
+		var link = $(obj).find("a:first");
+		$("#mask").show();
+		stop = true;
+		link.addClass("nav_a_"+navid);
+		li.addClass("nav_arrow_"+navid);
+		$("#nav_pop_"+navid).css('display','block');
+		var a = $("#nav").offset().left+165;
+		$("#nav_pop_"+navid).css('left',-(li.offset().left-a));*/
+	}
+	
+	function HidePopNav(navid,obj)
+	{
+		link.removeClass("nav_a_"+navid);
+	
+		/*var li = $(obj);
+		var link = $(obj).find("a:first");
+		$("#mask").hide();
+		stop = false;
+		link.removeClass("nav_a_"+navid);
+		li.removeClass("nav_arrow_"+navid);
+		$("#nav_pop_"+navid).css('display','none');*/
+	}
+	
+	$(document).ready(function(){
+	        $("#scrollDiv").Scroll({line:1,speed:500,timer:5000,up:"btn1",down:"btn2"});
+	});
+
+</script>
+
+</head>
