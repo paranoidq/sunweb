@@ -25,7 +25,7 @@ public class ContactController {
 	public String DisplayHomepage(Model model, HttpServletResponse response, 
 			@RequestParam("name") String name, @RequestParam("email") String email, @RequestParam("content") String content) {
 	
-		
+		//
 		return "web/homepage";
 	}
 }
