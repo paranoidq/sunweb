@@ -18,7 +18,7 @@ public class HomepageController {
 	
 	@RequestMapping("/aentropi")
 	public String DisplayHomepage(Model model, HttpServletResponse response) {
-		//
+		///
 		return "homepage";
 	}
 	
