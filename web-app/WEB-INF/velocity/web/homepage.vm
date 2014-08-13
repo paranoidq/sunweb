@@ -35,7 +35,7 @@
 			<table cellspacing="0" cellpadding="0" class="index_product_data">
 				<tbody>
 				<tr>
-					<td class="pname"><a class="aWhite" href="/webroot/products/">Cell</a></td>
+					<td class="pname"><a class="aWhite" href="/webroot/products">Cell</a></td>
 					<td class="pdesc"><a class="aWhite" href="/webroot/products/">Mono Series</a> <br>  <!--<a class="aWhite" href="/webroot/products/" >Quasi-mono Series</a> <br/>--> <a class="aWhite" href="/webroot/products/">Poly Series</a></td>
 				</tr>
 				<tr>

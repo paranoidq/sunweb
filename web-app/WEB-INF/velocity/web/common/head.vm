@@ -12,7 +12,7 @@
 	
 	function ShowPopNav(navid,obj)
 	{	
-		link.addClass("nav_a_"+navid);
+		//link.addClass("nav_a_"+navid);
 		
 		/*var li = $(obj);
 		var link = $(obj).find("a:first");
@@ -27,7 +27,7 @@
 	
 	function HidePopNav(navid,obj)
 	{
-		link.removeClass("nav_a_"+navid);
+		//link.removeClass("nav_a_"+navid);
 	
 		/*var li = $(obj);
 		var link = $(obj).find("a:first");
