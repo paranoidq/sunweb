@@ -1,4 +1,4 @@
-body{font-family:Arial, Helvetica, sans-serif;text-align:center;margin:0 auto;padding:0;font-size:12px;background:#F0EEEE;color:#6e6e70;}
+body{font-family:Arial, Helvetica, sans-serif;text-align:center;margin:0 auto;padding:0;font-size:12px;background:#ffffff;color:#6e6e70;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote{padding:0; margin:0 auto; }
 li{list-style-type:none;text-align:left;}
 img{border:0px;}
@@ -9,7 +9,8 @@ a:hover{text-decoration:underline;color:#6e6e70;}
 .aRed,a.aRed:link,a.aRed:visited{ color:#cc0e0e; }
 .aOrange,a.aOrange:link,a.aOrange:visited{color:#ff7301; }
 .aBlue,a.aBlue:link,a.aBlue:visited{color:#ff7802}
-.aWhite,a.aWhite:link,a.aWhite:visited{color:#fff}
+.aWhite,a.aWhite:link,a.aWhite:visited{color:#000}
+
 .aBlack,a.aBlack:link,a.aBlack:visited{color:#000;}
 .aGray,a.aGray:link,a.aGray:visited{color:#fff;}
 .ahuise,a.ahuise:link,a.ahuise:visited{color:#707070;}
@@ -39,7 +40,7 @@ a.no_underline{text-decoration:none;}
 .nav .angle{float:left;width:16px;}
 .nav .angle .angle_top{background:url("../images/nav_angle.gif") no-repeat;width:16px;height:16px;}
 .nav .angle .angle_bottom{background-color:#17124c;height:40px;}
-.nav .nav_content{width:960px;float:left;background-color:#17124c;height:56px;}
+.nav .nav_content{width:960px;float:left;background-color:#fffffc;height:56px;}
 .nav .logo{float:left;padding-left:4px;}
 .nav .menu{float:right;padding-right:11px;}
 .nav .home{float:right; margin:24px 12px 0px 0px}
@@ -81,7 +82,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .index_notice .operate_t{height:5px;width:20px;cursor:pointer;margin-bottom:4px;padding:0px;font-size:0;line-height:0;}
 .index_notice .notice_content{text-align:left;color:#fff;padding:10px 0 10px 0;}
 
-.index_content{background:#00AFDD;height:220px;padding-top:32px;}
+.index_content{background:#FFFFFF;height:220px;padding-top:32px;}
 .index_content_title{margin-bottom:30px;}
 .index_news{float:left;margin-left:27px;width:265px;text-align:left;_display:inline;}
 .index_news li{background:url("../images/icon/index_news_dot.jpg") no-repeat;background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
@@ -90,7 +91,8 @@ table.index_product_data{color:#fff;}
 table.index_product_data td.pname{width:85px;vertical-align:top;font-size:14px;}
 table.index_product_data td.pdesc{padding-bottom:20px;}
 .index_global{float:left;margin-left:50px;text-align:left;_display:inline;}
-
+.index_caseimg{float:center;}
+.index_more{float:right;margin-right:50px;color:#000;}
 
 #scrollDiv{height:14px;min-height:14px;line-height:14px;overflow:hidden;text-align:left;}
 #scrollDiv li{height:30px;padding-left:10px;text-align:left;}
