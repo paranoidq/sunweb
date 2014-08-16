@@ -17,9 +17,19 @@ public class HomepageController {
 	HomepageService hpService;
 	
 	@RequestMapping("/")
-	public String DisplayHomepage(Model model, HttpServletResponse response) {
+	public String displayHomepage(Model model, HttpServletResponse response) {
 		///
 		return "web/homepage";
+	}
+	
+	@RequestMapping("/company")
+	public String displayCompany(Model model, HttpServletResponse response) {
+		return "web/company";
+	}
+	
+	@RequestMapping("/contact")
+	public String displayContact(Model model, HttpServletResponse response) {
+		return "web/contact";
 	}
 	
 }

@@ -3,10 +3,9 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 
-#parse("web/common/header.vm")
 
 <body>
-	
+	#parse("web/common/header.vm")
 	<div style="width:960px;height:291px;margin:0 auto;position:relative;">
 	    #parse("web/common/navi.vm")
 		<!-- Banner Begin -->
@@ -23,7 +22,7 @@
 		<!-- Content News Begin -->
 		<div class="index_news">
 			<div class="index_content_title">
-				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)" style="margin-bottom:0px;">
 					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
 						<font style="font-size:18px;">News</font>
 					</a>
@@ -69,18 +68,16 @@
 		<!-- Content Cases Begin -->
 		<div class="index_case"> 
 			<div class="index_content_title">
-				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)" style="line-height:18px; vertical-align:bottom;">
 					<a href="#" class="aWhite no_underline">
 						<font style="font-size:18px;">Cases</font>
+					</a>
+					<a class="index_more" href="#" target="_blank">
+						<font style="font-size:13px; float:right;">...more</font>
 					</a>
 				</li>
 			</div>
 			<a href="#" target="_blank"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.jpg"></a>
-			<div class="index_more">
-				<a class="index_more" href="#" target="_blank">
-					<font style="font-size:10px;">▶ more</font>
-				</a>
-			</div>
 		</div>
 		<!-- Content Cases End -->
 		<div class="clear"></div>

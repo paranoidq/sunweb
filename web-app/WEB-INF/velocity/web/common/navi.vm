@@ -1,24 +1,24 @@
 <div id="nav" class="nav" style="position:absolute;top:0;left:0;z-index:99;">
 	<div class="nav_content">
 		<div class="logo">
-		<img src= "/static/images/logo.jpg">
+		<a href="$!{viewUtil.getContextPath()}/"><img src= "/static/images/logo.jpg"></a>
 		</div>
 		
 		<div class="menu">
 			<ul>
 				
 				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
-					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
+					<a href="$!{viewUtil.getContextPath()}/company" class="aWhite no_underline">
 						<font style="font-size:14px;">ABOUT</font>
 					</a>
 				</li>
 				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
-					<a href="$!{viewUtil.getContextPath()}/company" class="aWhite no_underline">
+					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
 						<font style="font-size:14px;">PRODUCTS&SERVICES</font>
 					</a>
 				</li>
 				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
-					<a href="$!{viewUtil.getContextPath()}/contact" class="aWhite no_underline">
+					<a href="$!{viewUtil.getContextPath()}/news" class="aWhite no_underline">
 						<font style="font-size:14px;">NEWS</font>
 					</a>
 				</li>

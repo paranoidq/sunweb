@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+
+#parse("web/common/head.vm")
+<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/superfish.css" type="text/css">
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/superfish.js"></script>
+
+<body>
+	#parse("web/common/header.vm")
+	<div style="width:960px;height:50px;margin:0 auto;position:relative;">
+	    #parse("web/common/navi.vm")
+	</div>
+	<div class="currpath nav_color_theme">
+		You are here:&nbsp;
+		<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
+		Contact Us
+	</div>
+	<div class="pagebody">
+		<div class="pageleft">
+			<div id="pageleft_inner" class="pageleft_inner">
+				<div id="slide" class="slide">
+					<ul class="submenu">
+						<li class="open"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="pageright">
+			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
+			<div class="pagemain">
+				<ul class="title">Overview</ul>
+				<div class="content">
+					<p>
+						<span style="line-height: 17px; font-size: 12px;">
+							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+								Passionate about Innovation, Quality and Customer Service
+							</span>
+						</span>
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
+							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
+							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
+							shortages as well as human kind&rsquo;s impact on the environment.
+						</span>
+						<br />
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
+							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
+							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
+							shortages as well as human kind&rsquo;s impact on the environment.
+						</span>
+					<p>
+					<p>
+						<span style="line-height: 17px; font-size: 12px;">
+							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+								Passionate about Innovation, Quality and Customer Service
+							</span>
+						</span>
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
+							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
+							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
+							shortages as well as human kind&rsquo;s impact on the environment.
+						</span>
+						<br />
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
+							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
+							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
+							shortages as well as human kind&rsquo;s impact on the environment.
+						</span>
+					<p>
+					<p>
+						<span style="line-height: 17px; font-size: 12px;">
+							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+								Passionate about Innovation, Quality and Customer Service
+							</span>
+						</span>
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
+							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
+							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
+							shortages as well as human kind&rsquo;s impact on the environment.
+						</span>
+						<br />
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
+							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
+							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
+							shortages as well as human kind&rsquo;s impact on the environment.
+						</span>
+					<p>
+					
+				</div>
+			</div>
+			
+			
+			<table class="featuredprojects_bottom">
+				<tr>
+					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
+				</tr>
+			</table>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	#parse("web/common/footer.vm")
+	
+</body>
+
+<script type="text/javascript">
+	jQuery(function(){
+		jQuery('ul.sf-menu').superfish();
+	});
+	if(typeof(MenuMoveWithScroll)=="function"){
+		window.setTimeout(MenuMoveWithScroll,1);
+	}
+</script>
+</html>
+

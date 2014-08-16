@@ -1,7 +1,10 @@
 <div class="header">
-	<div class="head_tools">
+	<!--<div class="head_tools">
 		<form action="/webroot/search.php" method="post"> 
-			<div id="langdiv" style="float:right;margin-top:3px; display:none" onmouseout="HideLang()" onmouseover="clearHide()">
+			<div style="float:right;">
+				<span class="lang" onmouseover="showlang()" onmouseout="HideLang()">language</span>
+			</div>
+			<div id="langdiv" style="float:right;; display:none" onmouseout="HideLang()" onmouseover="clearHide()">
 				<ul>
 					<li><a href="/">English</a></li>
 					<li><a href="/JP">日本語</a></li>
@@ -9,5 +12,5 @@
 			</div>
 		</form>
 		<div class="clear"></div>
-	</div>
+	</div>-->
 </div>

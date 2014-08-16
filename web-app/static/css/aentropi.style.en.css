@@ -3,7 +3,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 li{list-style-type:none;text-align:left;}
 img{border:0px;}
 
-a,a:visited,a:visited,a:active{text-decoration:none;color:#6e6e70;}
+a,a:visited,a:visited,a:active{text-decoration:none;color:#2c9fe1;}
 a:hover{text-decoration:underline;color:#6e6e70;}
 
 .aRed,a.aRed:link,a.aRed:visited{ color:#cc0e0e; }
@@ -23,12 +23,12 @@ a.no_underline{text-decoration:none;}
 
 .header,.index_banner,.nav,.index_notice,.index_content,.pagebody,.footer{width:960px;}
 .header{height:50px;}
-.head_tools{padding-top:25px;text-align:right; padding-right:12px; vertical-align:middle; height:20px;}
+.head_tools{padding-top:0px;text-align:right; padding-right:px; vertical-align:middle; height:20px;}
 .head_tools ul{float:right;}
 .head_tools ul li{float:right;margin-right:15px;color:#929293;}
 .head_tools ul li a{color:#929293}
 .head_tools ul li a:hover{color:#0054a0}
-.head_tools .lang{color:#0054a0; margin-right:19px; cursor:pointer;}
+.head_tools .lang{color:#2c9fe1; margin-right:10px; cursor:pointer;}
 .head_tools .sinput{border:1px solid #91b2d2; width:113px; height:16px; margin-right:8px; }
 .head_tools .search_but{ vertical-align:middle;   line-height:18px;}
 .index_banner{position:relative;height:235px;}
@@ -75,6 +75,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .nav_color_1{background:#f57c1f}
 .nav_color_2{background:#b32c4a}
 .nav_color_3{background:#01663a}
+.nav_color_theme{background:#2c9fe1}
 .nav_font_color_hover {color:#6e6e70}
 
 /***index page style begin***/
@@ -84,13 +85,11 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .index_notice .notice_content{text-align:left;color:#fff;padding:10px 0 10px 0;}
 
 .index_content{background:#FFFFFF;height:220px;padding-top:32px;}
-.index_content_title{margin-bottom:20px;}
+.index_content_title{margin-bottom:15px;}
 .index_news{float:left;margin-left:27px;width:265px;text-align:left;_display:inline;}
 .index_news li{background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
 .index_news li_dot{background:url("../images/icon/index_news_dot.jpg") no-repeat;background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
-.index_news li{no-repeat;background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
 
-.index_news li{no-repeat;background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
 .index_products{float:left;margin-left:70px;text-align:left;width:280px;_display:inline;}
 table.index_product_data{color:#fff;}
 table.index_product_data td.pname{width:85px;vertical-align:top;font-size:14px;}
@@ -104,12 +103,12 @@ table.index_product_data td.pdesc{padding-bottom:20px;}
 #scrollDiv li a{color:#fff}
 /***index page style end***/
 
-.currpath{height:30px;text-align:left;color:#fff;line-height:30px;padding-left:28px;width:932px;}
+.currpath{height:30px;text-align:left;color:#fff;line-height:30px;padding-left:28px;width:909px;padding-top:5px;}
 .currpath_color_1{background:#f57c1f;}
 .currpath_color_3{background:#01663a;}
 .currpath a{color:#fff;}
 .currpath a:link,.currpath a:hover,.currpath a:visited{color:#fff;}
-.pagebody{border:1px #D1D3D4 solid;background:#fff;margin-top:8px;padding:10px;width:940px;}
+.pagebody{border:0px #D1D3D4 solid;background:#fff;margin-top:px;padding:10px;width:940px;}
 .pageleft{float:left;width:178px;text-align:left;}
 .pageright{float:right;width:750px;}
 .pagemain{text-align:left;padding-bottom:80px;}
@@ -213,7 +212,7 @@ ul.cpsubmenu_child li.open a{color:#b53b54;}
 .featuredprojects_list .bottom{padding-top:10px}
 .featuredprojects_list .left{float:left;width:117px;padding-top:4px;}
 .featuredprojects_list .right{float:left;width:580px;padding-left:15px;text-align:left;color:#909193;line-height:18px}
-.featuredprojects_bottom{text-align:left;float:left;color:#909193;margin-bottom:20px}
+.featuredprojects_bottom{text-align:left;float:right;color:#2c9fe1;margin-bottom:20px}
 .featuredprojects_list p{padding:0;margin:0}
 
 /*Company */
@@ -223,7 +222,7 @@ ul.cpsubmenu_child li.open a{color:#b53b54;}
 .bottomborder{border-bottom:1px solid #e9e9e9;}
 .pagemain .title .email{display:inline; margin-right:5px; float:right;margin-top:16px; cursor:pointer; }
 
-.pagemain .content{color:#6e6e70;text-align:left;min-height:500px;padding:0px 20px 20px 25px;}
+.pagemain .content{color:#6e6e70;text-align:left;min-height:0px;padding:0px 20px 20px 16px;}
 
 .pagemain .newstitle{color:#000; text-align:left; font-size:25px; font-weight:bold;padding:0px 20px 5px 15px;}
 .pagemain .timetitle{color:#6e6e70;text-align:left;font-size:10px;padding:8px 20px 0px 15px;}
