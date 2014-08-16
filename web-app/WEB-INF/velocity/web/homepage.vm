@@ -23,16 +23,16 @@
 		<!-- Content News Begin -->
 		<div class="index_news">
 			<div class="index_content_title">
-			<li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
+				<li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
 					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
 						<font style="font-size:18px;">News</font>
 					</a>
 				</li>
 			</div>
 			<ul>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=288" target="_blank">JA Solar P-Type Mono-Si Solar Cells Surpass 20% Conversion Efficiency</a></li>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=287" target="_blank">JA Solar to Supply 38.6 MW of Modules to Phoenix Solar for Georgia Solar Farm</a></li>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=285" target="_blank">JA Solar Multi-Si Solar Cells Reach Record Efficiency Levels</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=288" target="_blank">▶ JA Solar P-Type Mono-Si Solar Cells Surpass 20% Conversion Efficiency</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=287" target="_blank">▶ JA Solar to Supply 38.6 MW of Modules to Phoenix Solar for Georgia Solar Farm</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=285" target="_blank">▶ JA Solar Multi-Si Solar Cells Reach Record Efficiency Levels</a></li>
 			</ul>
 		</div>
 		<!-- Content News End -->
@@ -62,27 +62,24 @@
 			</table>
 		</div>
 		<!-- Content Product End -->
+		
+		
 		<!-- Content Cases Begin -->
-		<div class="index_news">
+		<div class="index_case">
 			<div class="index_content_title">
-			<li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
-					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
+				<li>
+					<a href="#" class="aWhite no_underline">
 						<font style="font-size:18px;">Cases</font>
 					</a>
 				</li>
 			</div>
-		<div class="index_caseimg">
-		<img src= "/static/images/case_img.jpg">
+			<a href="#" target="_blank"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.jpg"></a>
+			<div class="index_more">
+				<a class="index_more" href="#" target="_blank">
+					<font style="font-size:10px;">▶ more</font>
+				</a>
+			</div>
 		</div>
-			<ul>
-				<li><a class="index_more" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=288" target="_blank">
-					
-						<font style="font-size:10px;" >more</font>
-					
-					</a>
-				</li>
-				
-			</ul>
 		<!-- Content Cases End -->
 		<div class="clear"></div>
 	</div>

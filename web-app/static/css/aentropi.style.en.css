@@ -9,7 +9,7 @@ a:hover{text-decoration:underline;color:#6e6e70;}
 .aRed,a.aRed:link,a.aRed:visited{ color:#cc0e0e; }
 .aOrange,a.aOrange:link,a.aOrange:visited{color:#ff7301; }
 .aBlue,a.aBlue:link,a.aBlue:visited{color:#ff7802}
-.aWhite,a.aWhite:link,a.aWhite:visited{color:#000}
+.aWhite,a.aWhite:link,a.aWhite:visited{color:#6e6e70}
 
 .aBlack,a.aBlack:link,a.aBlack:visited{color:#000;}
 .aGray,a.aGray:link,a.aGray:visited{color:#fff;}
@@ -83,16 +83,16 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .index_notice .notice_content{text-align:left;color:#fff;padding:10px 0 10px 0;}
 
 .index_content{background:#FFFFFF;height:220px;padding-top:32px;}
-.index_content_title{margin-bottom:30px;}
+.index_content_title{margin-bottom:20px;}
 .index_news{float:left;margin-left:27px;width:265px;text-align:left;_display:inline;}
-.index_news li{background:url("../images/icon/index_news_dot.jpg") no-repeat;background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
+.index_news li{no-repeat;background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
 .index_products{float:left;margin-left:70px;text-align:left;width:280px;_display:inline;}
 table.index_product_data{color:#fff;}
 table.index_product_data td.pname{width:85px;vertical-align:top;font-size:14px;}
 table.index_product_data td.pdesc{padding-bottom:20px;}
-.index_global{float:left;margin-left:50px;text-align:left;_display:inline;}
-.index_caseimg{float:center;}
-.index_more{float:right;margin-right:50px;color:#000;}
+.index_case{float:left;margin-left:75px;text-align:left;_display:inline;}
+.index_caseimg{float:right;}
+.index_more{margin-left:70px;color:#000;}
 
 #scrollDiv{height:14px;min-height:14px;line-height:14px;overflow:hidden;text-align:left;}
 #scrollDiv li{height:30px;padding-left:10px;text-align:left;}
@@ -128,7 +128,7 @@ ul.submenu_child li.open a{color:#F7941D;}
 
 
 .footer{background:#fff;height:30px;margin:16px auto;clear:both;}
-.footer .copyright{color:#989898;float:left;padding:10px 0 0 12px;}
+.footer .copyright{color:#989898;float:left;padding:0 0 0 12px;}
 .footer .copyright a{color:#989898;}
 .footer .link{float:right;padding:8px 12px 0 0;color:#15489c;}
 .footer .link a{color:#15489c}
