@@ -10,8 +10,12 @@
 <script type="text/javascript">
 	var stop = false;
 	
-	function ShowPopNav(navid,obj)
+	function ShowPopNav(obj)
 	{	
+		var li = $(obj);
+		var link = $(obj).find("a:first").find("font");
+		link.addClass("nav_font_color_hover");
+		
 		//link.addClass("nav_a_"+navid);
 		
 		/*var li = $(obj);
@@ -25,8 +29,13 @@
 		$("#nav_pop_"+navid).css('left',-(li.offset().left-a));*/
 	}
 	
-	function HidePopNav(navid,obj)
+	function HidePopNav(obj)
 	{
+	
+		var li = $(obj);
+		var link = $(obj).find("a:first").find("font");
+		link.removeClass("nav_font_color_hover");
+		
 		//link.removeClass("nav_a_"+navid);
 	
 		/*var li = $(obj);

@@ -7,22 +7,22 @@
 		<div class="menu">
 			<ul>
 				
-				<li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
 					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
 						<font style="font-size:14px;">ABOUT</font>
 					</a>
 				</li>
-				<li onmouseover="ShowPopNav(3,this)" onmouseout="HidePopNav(3,this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
 					<a href="$!{viewUtil.getContextPath()}/company" class="aWhite no_underline">
 						<font style="font-size:14px;">PRODUCTS&SERVICES</font>
 					</a>
 				</li>
-				<li onmouseover="ShowPopNav(3,this)" onmouseout="HidePopNav(3,this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
 					<a href="$!{viewUtil.getContextPath()}/contact" class="aWhite no_underline">
 						<font style="font-size:14px;">NEWS</font>
 					</a>
 				</li>
-				<li onmouseover="ShowPopNav(3,this)" onmouseout="HidePopNav(3,this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)"">
 					<a href="$!{viewUtil.getContextPath()}/contact" class="aWhite no_underline">
 						<font style="font-size:14px;">CONTACT US</font>
 					</a>
