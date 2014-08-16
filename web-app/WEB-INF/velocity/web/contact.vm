@@ -13,9 +13,11 @@
 	    #parse("web/common/navi.vm")
 	</div>
 	<div class="currpath nav_color_theme">
-		You are here:&nbsp;
-		<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
-		Contact Us
+		<span style="margin-left:18px;">
+			You are here:&nbsp;
+			<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
+			Contact Us
+		</span>
 	</div>
 	<div class="pagebody">
 		<div class="pageleft">

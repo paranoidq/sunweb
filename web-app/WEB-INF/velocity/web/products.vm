@@ -16,9 +16,7 @@
 		<span style="margin-left:18px;">
 			You are here:&nbsp;
 			<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
-			<a href="$!{viewUtil.getContextPath()}/company">Company</a> - 
-			<a href="$!{viewUtil.getContextPath()}/company">About JA Solar</a> - 
-			Overview
+			Products
 		</span>
 	</div>
 	<div class="pagebody">
@@ -26,7 +24,7 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="open"><a href="$!{viewUtil.getContextPath()}/company">About JA Solar</a></li>
+						<li class="open"><a href="/webroot/company/">About JA Solar</a></li>
 						<li class="child">
 							<ul class="submenu_child">
 								<li class="open"><a href="#">Overview</a></li>

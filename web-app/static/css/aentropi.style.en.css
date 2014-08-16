@@ -9,7 +9,7 @@ a:hover{text-decoration:underline;color:#6e6e70;}
 .aRed,a.aRed:link,a.aRed:visited{ color:#cc0e0e; }
 .aOrange,a.aOrange:link,a.aOrange:visited{color:#ff7301; }
 .aBlue,a.aBlue:link,a.aBlue:visited{color:#ff7802}
-.aWhite,a.aWhite:link,a.aWhite:visited{color:#000}
+.aWhite,a.aWhite:link,a.aWhite:visited{color:#6e6e70}
 
 .aBlack,a.aBlack:link,a.aBlack:visited{color:#000;}
 .aGray,a.aGray:link,a.aGray:visited{color:#fff;}
@@ -76,7 +76,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .nav_color_2{background:#b32c4a}
 .nav_color_3{background:#01663a}
 .nav_color_theme{background:#2c9fe1}
-.nav_font_color_hover {color:#6e6e70}
+.nav_font_color_hover {color:#2c9fe1}
 
 /***index page style begin***/
 .index_notice{background:#0054A6;height:34px;clear:both;}
@@ -103,7 +103,7 @@ table.index_product_data td.pdesc{padding-bottom:20px;}
 #scrollDiv li a{color:#fff}
 /***index page style end***/
 
-.currpath{height:30px;text-align:left;color:#fff;line-height:30px;padding-left:28px;width:909px;padding-top:5px;}
+.currpath{height:30px;text-align:left;color:#fff;line-height:30px;padding-left:0px;width:938px;padding-top:5px;}
 .currpath_color_1{background:#f57c1f;}
 .currpath_color_3{background:#01663a;}
 .currpath a{color:#fff;}

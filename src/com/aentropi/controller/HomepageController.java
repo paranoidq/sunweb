@@ -32,4 +32,14 @@ public class HomepageController {
 		return "web/contact";
 	}
 	
+	@RequestMapping("/products")
+	public String displayProducts(Model model, HttpServletResponse response) {
+		return "web/products";
+	}
+	
+	@RequestMapping("/news")
+	public String displayNews(Model model, HttpServletResponse response) {
+		return "web/news";
+	}
+	
 }
