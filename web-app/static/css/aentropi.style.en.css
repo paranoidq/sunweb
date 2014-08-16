@@ -9,7 +9,7 @@ a:hover{text-decoration:underline;color:#6e6e70;}
 .aRed,a.aRed:link,a.aRed:visited{ color:#cc0e0e; }
 .aOrange,a.aOrange:link,a.aOrange:visited{color:#ff7301; }
 .aBlue,a.aBlue:link,a.aBlue:visited{color:#ff7802}
-.aWhite,a.aWhite:link,a.aWhite:visited{color:#6e6e70}
+.aWhite,a.aWhite:link,a.aWhite:visited{color:#000}
 
 .aBlack,a.aBlack:link,a.aBlack:visited{color:#000;}
 .aGray,a.aGray:link,a.aGray:visited{color:#fff;}
@@ -75,6 +75,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .nav_color_1{background:#f57c1f}
 .nav_color_2{background:#b32c4a}
 .nav_color_3{background:#01663a}
+.nav_font_color_hover {color:#6e6e70}
 
 /***index page style begin***/
 .index_notice{background:#0054A6;height:34px;clear:both;}

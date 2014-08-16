@@ -23,7 +23,7 @@
 		<!-- Content News Begin -->
 		<div class="index_news">
 			<div class="index_content_title">
-				<li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)">
 					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
 						<font style="font-size:18px;">News</font>
 					</a>
@@ -39,11 +39,13 @@
 	
 		<!-- Content Product Begin -->
 		<div class="index_products">
-			<div class="index_content_title"><a href="/webroot/products/"><li onmouseover="ShowPopNav(2,this)" onmouseout="HidePopNav(2,this)">
+			<div class="index_content_title">
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)">
 					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
 						<font style="font-size:18px;">Products</font>
 					</a>
-				</li></a></div>
+				</li>
+			</div>
 			<table cellspacing="0" cellpadding="0" class="index_product_data">
 				<tbody>
 				<tr>
@@ -65,9 +67,9 @@
 		
 		
 		<!-- Content Cases Begin -->
-		<div class="index_case">
+		<div class="index_case"> 
 			<div class="index_content_title">
-				<li>
+				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)">
 					<a href="#" class="aWhite no_underline">
 						<font style="font-size:18px;">Cases</font>
 					</a>
