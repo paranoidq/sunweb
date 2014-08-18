@@ -28,8 +28,8 @@
 						<li class="child">
 							<ul class="submenu_child">
 								<li class="open"><a href="#">Overview</a></li>
-								<li><a href="#">History & Milestones</a></li>
-								<li ><a href="#">Management</a></li>
+								<li class="innclose"><a href="#">History & Milestones</a></li>
+								<li class="innclose"><a href="#">Management</a></li>
 							</ul>
 						</li>
 						<li class="close"><a href="#">Global</a></li>

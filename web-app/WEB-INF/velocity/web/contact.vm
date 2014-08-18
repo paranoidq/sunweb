@@ -24,7 +24,7 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="open"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
+						<li class="open last"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -32,75 +32,47 @@
 		<div class="pageright">
 			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
 			<div class="pagemain">
-				<ul class="title">Overview</ul>
+				<ul class="title">Contact Information</ul>
 				<div class="content">
 					<p>
 						<span style="line-height: 17px; font-size: 12px;">
 							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Passionate about Innovation, Quality and Customer Service
+								Products & Services
 							</span>
 						</span>
 						<br />
 						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
+							8888888888<br/>
+							exebry@gmail.com
 						</span>
 						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
 					<p>
 					<p>
 						<span style="line-height: 17px; font-size: 12px;">
 							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Passionate about Innovation, Quality and Customer Service
+								Invest and Cooperation
 							</span>
 						</span>
 						<br />
 						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-					<p>
-					<p>
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Passionate about Innovation, Quality and Customer Service
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
+							999999999<br/>
+							exebry@gmail.com
 						</span>
 					<p>
 					
+				</div>
+				<ul class="title">Message</ul>
+				<div class="content">
+					<form action="">
+						<span>Your email:</span><input type="text" name="fromAddress" id="_from_address"style="color:#6e6e70; margin-left:30px; width:250px;"/>
+						<div style="margin-top:10px; line-height:30px; vertical-align:top;">
+							<span style="vertical-align:top;">Your message:</span>
+							<textarea id="_content" style="margin-left:5px;margin-top:10px;width:439px;height:152px;color:#6e6e70;" ></textarea>
+						</div>
+						<button id="_send_btn" style="background-color:#2c9fe1; border:0px; color:#fff; margin-left:92px;margin-top:5px;">提交</button>
+						<span id="_success_info" style="margin-left:10px;color:#2c9fe1; display:none;">Deliver Success !</span>
+						<span id="_fail_info" style="margin-left:10px;color:red; display:none;">Deliver Failed. Please try again !</span>
+					</form>
 				</div>
 			</div>
 			
@@ -125,6 +97,36 @@
 	if(typeof(MenuMoveWithScroll)=="function"){
 		window.setTimeout(MenuMoveWithScroll,1);
 	}
+	
+	$(document).ready(function(){
+		$("#_send_btn").click(function(){
+			var _from_address = $("#_from_address").val();
+			var _content = $("#_content").val();
+			
+			//alert(_from_address + _content);
+			if(_from_address == "") {
+				alert("Please enter your email address !");
+			} else if(_content.trim() == ""){
+				alert("{Please enter your message !");
+			} else {
+				$.ajax({
+					url: "$!{viewUtil.getContextPath()}/p_send_email",
+					type: "post",
+					data: {fromAddress:_from_address, content:_content},
+					dataType: "html",
+					success:function(data){
+						$("#_success_info").css("display", "inline-block");
+						$('#_success_info').delay(3000).fadeOut();
+					},
+					error:function(){
+						$("#_fail_info").css("display", "inline-block");
+						$('#_fail_info').delay(3000).hide(0);
+					}
+				});
+			}
+		});	
+	});
+	
 </script>
 </html>
 
