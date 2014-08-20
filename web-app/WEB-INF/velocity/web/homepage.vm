@@ -90,7 +90,9 @@
 <script language="JavaScript">
 	var data = [{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_04_en.jpg",href:"#",target:""},
 	            {title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_05_en.jpg",href:"#",target:""},
-				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg",href:"#",target:""}];
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg",href:"#",target:""},
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_07_en.jpg",href:"#",target:""}];
+				
 	$('#index_banner').d_imagechange({
 		data:data,
 		playTime:5000,
@@ -100,7 +102,7 @@
 		btn:false,
 		bg:false,
 		width:960,
-		height:251,
+		height:350,
 		animateStyle:'o'//默认值'o',可以不写
 	});
 

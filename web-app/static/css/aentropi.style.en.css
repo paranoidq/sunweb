@@ -32,7 +32,7 @@ a.no_underline{text-decoration:none;}
 .head_tools .sinput{border:1px solid #91b2d2; width:113px; height:16px; margin-right:8px; }
 .head_tools .search_but{ vertical-align:middle;   line-height:18px;}
 .index_banner{position:relative;height:235px;}
-.index_banner_mask{width:960px;height:251px;position:absolute;top:0;left:0;z-index:90;background:#fff;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:.5;display:none;}
+.index_banner_mask{width:960px;height:350px;position:absolute;top:0;left:0;z-index:90;background:#fff;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:.5;display:none;}
 
 .nav{background-repeat:no-repeat;background-position:left top;height:56px;clear:both;}
 .nav_index{background-image:url("../images/menu_angle.jpg"); }
@@ -84,7 +84,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .index_notice .operate_t{height:5px;width:20px;cursor:pointer;margin-bottom:4px;padding:0px;font-size:0;line-height:0;}
 .index_notice .notice_content{text-align:left;color:#fff;padding:10px 0 10px 0;}
 
-.index_content{background:#FFFFFF;height:220px;padding-top:32px;}
+.index_content{background:#FFFFFF;height:220px;padding-top:140px;}
 .index_content_title{margin-bottom:15px;}
 .index_news{float:left;margin-left:27px;width:265px;text-align:left;_display:inline;}
 .index_news li{background-position:left 3px;padding-left:15px;color:#fff;margin-bottom:20px;}
@@ -119,7 +119,7 @@ table.index_product_data td.pdesc{padding-bottom:20px;}
 ul.submenu{background:#2c9fe1;width:176px;border-left:1px #FFF2DF solid;border-right:1px #FFF2DF solid;border-bottom:0px #fff solid;}
 ul.submenu li{padding:7px 0 6px 18px;border-bottom:1px #fff dotted;}
 ul.submenu li.close{background:url("../images/icon/arrow_close.jpg") no-repeat;background-position:8px 12px;color:#6D6E71}
-ul.submenu li.open{background:url("../images/icon/arrow_open.jpg") no-repeat;background-position:8px 11px;color:#fff}
+ul.s"E:/±œ…Ë/EPWebProject◊ ¡œ/EPWebProject_9/EPWebProject.sln"ubmenu li.open{background:url("../images/icon/arrow_open.jpg") no-repeat;background-position:8px 11px;color:#fff}
 ul.submenu li.open a{color:#fff}
 ul.submenu li a {color:#fff}
 ul.submenu li.last{border-bottom:none;}
