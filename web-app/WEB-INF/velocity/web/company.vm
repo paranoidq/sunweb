@@ -34,56 +34,35 @@
 				</div>
 			</div>
 		</div>
+		
 		<div>
 		<div class="pageright" id="_about_1" style="display:block">
 			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
 			<div class="pagemain">
 				<ul class="title">Overview</ul>
-				<div class="content">
-					<p>
-						
-						
-						<span style="line-height: 17px; font-size: 12px;">
-							  AENTROPI was established in 2010 in the wake of the world’s countries became focusing on renewable energy and solar Photovoltaic in particular. AENTROPI spent the years analyzing markets and solar installation cases worldwide thereby creating an extensive knowledge about the best possible solutions to solar systems, not only for medium sized residential cases, but also for large scale embedded power plants. During the time, AENTROPI’s partners in Asia get the task of factories and products inspection and build up a supply chain that could ensure the products of highest quality.
-						</span>
-						<br />
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							With a team of excellence, our knowledge, experience, and continual innovation have lead to highly successful gigawatt solar system installations and hundreds of turnkey megawatt power plants worldwide. AENTROPI provides industry-leading solar energy solutions that not only include panel manufacturing, but also package services throughout the entire life cycle of solar power plants, from project design, financing, engineering, procurement, and construction management through operations and maintenance services.
-						</span>
-					<p>
-					<p>
-						
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Today, AENTROPI is grown into one of the leading suppliers of complete solar power solutions and has built a solid experience in the design of all types of PV systems, ranging from small installations to more advanced construction solutions. AENTROPI serves both as a consultant and supplier of complete PV systems for private, business, agriculture and government.
-						</span>
-						<br />
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							AENTROPI concerned about the satisfaction of their customers, which is why we are always standing by to answer your questions. AENTROPI is staffed with knowledgeable experts who can help you select a solar panel or just explain the solar basics. If you have any questions, please do not hesitate to contact us.
-						</span>
-					<p>
-					<p>
-						
-						
-						
-						<br />
-						<br />
-						
-					<p>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+					<span style="line-height: 17px; font-size: 12px;">
+						  AENTROPI was established in 2010 in the wake of the world’s countries became focusing on renewable energy and solar Photovoltaic in particular. AENTROPI spent the years analyzing markets and solar installation cases worldwide thereby creating an extensive knowledge about the best possible solutions to solar systems, not only for medium sized residential cases, but also for large scale embedded power plants. During the time, AENTROPI’s partners in Asia get the task of factories and products inspection and build up a supply chain that could ensure the products of highest quality.
+					</span>
 					
+					<br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						With a team of excellence, our knowledge, experience, and continual innovation have lead to highly successful gigawatt solar system installations and hundreds of turnkey megawatt power plants worldwide. AENTROPI provides industry-leading solar energy solutions that not only include panel manufacturing, but also package services throughout the entire life cycle of solar power plants, from project design, financing, engineering, procurement, and construction management through operations and maintenance services.
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Today, AENTROPI is grown into one of the leading suppliers of complete solar power solutions and has built a solid experience in the design of all types of PV systems, ranging from small installations to more advanced construction solutions. AENTROPI serves both as a consultant and supplier of complete PV systems for private, business, agriculture and government.
+					</span>
+					
+					<br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						AENTROPI concerned about the satisfaction of their customers, which is why we are always standing by to answer your questions. AENTROPI is staffed with knowledgeable experts who can help you select a solar panel or just explain the solar basics. If you have any questions, please do not hesitate to contact us.
+					</span>
 				</div>
 			</div>
 			
-			
-			<table class="featuredprojects_bottom">
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-			</table>
 			<div class="clear"></div>
 		</div>
 		
@@ -93,43 +72,43 @@
 		<div class="pageright" id="_about_2" style="display:none">
 			<div class="pagemain">
 				<ul class="title">Social Responsibility</ul>
-				<div class="content">
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+					<span style="line-height: 17px; font-size: 12px;">
+						Sustainable energy is the key solving the current environmental crisis. 
+						The mission of AENTROPI is to provide everyone with reliable and affordable access 
+						to the cleanest energy resource and the most efficient energy usages. As a vertical 
+						manufacturer of solar panels and solution provider, AENTROPI develops advanced and 
+						innovative technologies to drive down the cost of clean energy, making it economically viable 
+						for millions to harness nature’s power.
+					</span>
 					
-						<span style="line-height: 17px; font-size: 12px;">
-							Sustainable energy is the key solving the current environmental crisis. The mission of AENTROPI is to provide everyone with reliable and affordable access to the cleanest energy resource and the most efficient energy usages. As a vertical manufacturer of solar panels and solution provider, AENTROPI develops advanced and innovative technologies to drive down the cost of clean energy, making it economically viable for millions to harness nature’s power.
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							We also feel a strong obligation to help educate the public about alternative energy resources. AENTROPI works with educational institutions and organizations to promote clean energy and provide training. In the near future, AENTROPI will continue to carry out its goal of achieving social entrepreneurship.
-						</span>
-					<p>
-					<p>
-						<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/about02.jpg" border="0"/></div>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							AENTROPI is not just another clean energy supplier. In every aspect, we carry out our commitment to provide customers with the best service possible. This goes far beyond our final products. We respond to your requests and questions at the speed of light. We reduce our advertising costs to help maximize your profits. We can ship any quantity of energy products that a customer may request. No project is too big for us. We are down to earth. All of these contribute to peace of mind when choosing clean energy.
-						</span>
-						<br />
-						<br />
-						
-					<p>
-					<p>
-						
-						<br />
-						
-					<p>
+					<br /><br />
 					
+					<span style="line-height: 17px; font-size: 12px;">
+						We also feel a strong obligation to help educate the public about alternative energy resources.
+						 AENTROPI works with educational institutions and organizations to promote clean energy and provide
+						  training. In the near future, AENTROPI will continue to carry out its goal of achieving social entrepreneurship.
+					</span>
+					
+					<br /><br />
+					
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about02.jpg" border="0"/>
+					</div>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						AENTROPI is not just another clean energy supplier. In every aspect, we carry out our commitment to 
+						provide customers with the best service possible. This goes far beyond our final products. We respond to your 
+						requests and questions at the speed of light. We reduce our advertising costs to help maximize your profits. We 
+						can ship any quantity of energy products that a customer may request. No project is too big for us. We are down 
+						to earth. All of these contribute to peace of mind when choosing clean energy.
+					</span>
+					<br />
 				</div>
 			</div>
 			
-			
-			<table class="featuredprojects_bottom">
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-			</table>
-			<div class="clear"></div>
 		</div>
 		
 		
@@ -138,132 +117,121 @@
 			
 			<div class="pagemain">
 				<ul class="title">Customer Testiomnials</ul>
-				<div class="content">
-					
-						
-						
-						<span style="line-height: 17px; font-size: 12px;">
-							“As one of their distributors, we have installed over 800 kilowatts of AENTROPI solar panels in South American region. We are extremely pleased with the quality of their service and products. Packaging, performance, and appearance of their products are unsurpassed by any of our other vendors.”
-							
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+					<span style="line-height: 17px; font-size: 12px;">
+						“As one of their distributors, we have installed over 800 kilowatts of AENTROPI solar panels in South American region. We are extremely pleased with the quality of their service and products. Packaging, performance, and appearance of their products are unsurpassed by any of our other vendors.”
+					</span>
+					<br />
+					<div>
+						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
 							- Robert, Brazil
 						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							“AENTROPI team is very helpful and supportive. I once asked AENTROPI to help me for my own roof top solution, and they responded me the very next day with the complete design. At that time I have little knowledge about photovoltaic, I gained a lot during the talk with AENTROPI engineer. Now, cooperated with AENTROPI team, I am working as an EPC to develop Japanese solar projects.” 
-							
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
+					</div>
+					
+					<br /><br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						“AENTROPI team is very helpful and supportive. I once asked AENTROPI to help me for my own roof top solution, and they responded me the very next day with the complete design. At that time I have little knowledge about photovoltaic, I gained a lot during the talk with AENTROPI engineer. Now, cooperated with AENTROPI team, I am working as an EPC to develop Japanese solar projects.” 
+						
+					</span>
+					<br />
+					<div>
+						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
 							- S. Nakamura, Japan
 						</span>
-					<p>
+					</div>
+					<br /><br /><br /><br />
 					
+					<span style="line-height: 17px; font-size: 12px;">
+						“AENTROPI is professional in every aspect. Working with them is a fantastic experience. They provide plenty of complete solutions to choose from for different cases, and the price of their products is accessible.” 
 						
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							“AENTROPI is professional in every aspect. Working with them is a fantastic experience. They provide plenty of complete solutions to choose from for different cases, and the price of their products is accessible.” 
-							
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
+					</span>
+					<br />
+					<div>
+						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
 							– Louis, UK
 						</span>
-					<p>
-					
+					</div>
 				</div>
 			</div>
 			
-			
-			<table class="featuredprojects_bottom">
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-			</table>
 			<div class="clear"></div>
 		</div>
 		
 		
 <!--==============================about 4=======================================-->		
 		<div class="pageright" id="_about_4" style="display:none">
-			
 			<div class="pagemain">
-				<ul class="title">JOIN US</ul>
-				<div class="content">
+				<ul class="title">Join Us</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
+						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
+						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
+					</span>
 					
-						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
-							We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
-							AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
-						</span>
-						<br />
-						<br />
-					<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/></div>
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Positions:
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Asia Pacific Region
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Title: Senior Quality Control Manager
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Location: Nanjing, China
-						</span>
-						
-						
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Title: Project Engineer
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Location: Nanjing
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Europe
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Title: Customer Service Engineer
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							Location: London, United Kingdom
-						</span>
-						
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-						Apply here: HR@aentropi-power.com
-						</span>
-						<br />
-					<p>
+					<br /><br />
 					
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
+					</div>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							Positions:
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Asia Pacific Region
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Senior Quality Control Manager
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing, China
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Project Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Europe
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Customer Service Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: London, United Kingdom
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
+					Apply here: HR@aentropi-power.com
+					</span>
+					<br />
 				</div>
 			</div>
 			
-			
-			<table class="featuredprojects_bottom">
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-			</table>
 			<div class="clear"></div>
 		</div>
 		</div>
