@@ -37,7 +37,7 @@ jQuery.fn.extend({
 			btn:true,						// 是否显示按钮
 			repeat:'no-repeat',				// 重复规则 'no-repeat' 'repeat-x' 'repeat-y' 'repeat'
 			
-			bgColor:'#000',					// 背景色
+			bgColor:'#fff',					// 背景色
 			bgOpacity:.5,					// 背景透明度
 			bgHeight:40,					// 背景高
 			

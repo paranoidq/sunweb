@@ -99,7 +99,7 @@
 		animateTime:1000,
 		desc:false,
 		title:false,
-		btn:false,
+		btn:true,
 		bg:false,
 		width:960,
 		height:350,
