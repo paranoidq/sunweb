@@ -316,74 +316,74 @@
 			<div class="pagemain">
 				<ul class="title">Solar Basics</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
-						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
-						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
-					</span>
-					
-					<br /><br />
-					
-					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
-					</div>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
-							Positions:
-						</span>
-					</span>
-					<br />
 					<span style="line-height: 17px; font-size: 12px;">
 						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							Asia Pacific Region
+							1. Solar Energy
 						</span>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Title: Senior Quality Control Manager
+						Solar energy technologies include solar heating, solar photovoltaics, solar thermal electricity and solar architecture, which can make considerable contributions to solving some of the most urgent problems the world now faces.
 					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing, China
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Project Engineer
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing
-					</span>
-					
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
 						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							Europe
+							2. Photovoltaics
 						</span>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Title: Customer Service Engineer
+						PV is a method of generating electrical power by converting solar radiation into direct current electricity using semiconductors that exhibit the photovoltaic effect. Photovoltaic power generation employs solar panels composed of a number of solar cells containing a photovoltaic material. Materials presently used for photovoltaics include monocrystalline silicon, polycrystalline silicon, amorphous silicon, cadmium telluride, and copper indium gallium selenide/sulfide.
+					</span>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							3. Solar Cells
+						</span>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Location: London, United Kingdom
+						A solar cell (also called photovoltaic cell or photoelectric cell) is a solid state electrical device that converts the energy of light directly into electricity by the photovoltaic effect. Assemblies of solar cells are used to make solar modules which are used to capture energy from sunlight. The two main types of solar cells currently in the market are crystalline silicone and thin film, and Renogy only distributes crystalline silicone solar products.
 					</span>
-					
 					<br /><br />
 					
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
-					Apply here: HR@aentropi-power.com
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							4. Solar Panels/Solar Modules						
+						</span>
 					</span>
 					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						A solar panel (also referred to as a solar module) is a packaged, connected assembly of photovoltaic cells. The solar panel can be used as a component of a larger photovoltaic system to generate and supply electricity in commercial and residential applications. Each panel is rated by its DC output power under standard test conditions, and typically ranges from 100 to 450 watts. The efficiency of a panel determines the area of a panel given the same rated output – an 8% efficient 230 watt panel will have twice the area of a 16% efficient 230 watt panel.
+					</span>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							5. Balance of Systems	
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						The balance of system or “BOS” encompasses all components of a photovoltaic system other than the solar PV panels. This includes wiring, switches, support racks, an inverter, and batteries in the case of off-grid systems. In the case of free-standing systems, land is sometimes included as part of the BOS.
+					<span/>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							6. Inverter	
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						A power inverter, or inverter, is an electrical device that changes direct current (DC) to alternating current (AC); the converted AC can be at any required voltage and frequency with the use of appropriate transformers, switching, and control circuits.
+					<span/>
+					<br /><br />
+				
 				</div>
 			</div>
-			<div class="clear"></div>
 		</div>
 <!-- ===============================end of 6 divs =========================================-->		
 		</div>
