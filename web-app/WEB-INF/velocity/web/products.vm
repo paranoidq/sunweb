@@ -16,7 +16,7 @@
 		<span style="margin-left:18px;">
 			You are here:&nbsp;
 			<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
-			Products
+			<a href="$!{viewUtil.getContextPath()}/products">Products & Services</a>
 		</span>
 	</div>
 	<div class="pagebody">
@@ -24,105 +24,368 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="open"><a href="/webroot/company/">About JA Solar</a></li>
-						<li class="child">
-							<ul class="submenu_child">
-								<li class="open"><a href="#">Overview</a></li>
-								<li class="innclose"><a href="#">History & Milestones</a></li>
-								<li class="innclose"><a href="#">Management</a></li>
-							</ul>
-						</li>
-						<li class="close"><a href="#">Global</a></li>
-						<li class="close"><a href="#" >News</a></li>
-						<li class="close"><a href="#">Social Responsibility</a></li>
-						<li class="close"><a href="#">Career</a></li>
-						<li class="close last"><a href="#" >Media Center</a></li>
+						<li class="close"><a href="javascript:void(0)">Solar Module</a></li>
+						<li class="open"><a href="javascript:void(0)" >System Solution</a></li>
+						<li class="open"><a href="javascript:void(0)">Off-grid</a></li>
+						<li class="open"><a href="javascript:void(0)">Download Center</a></li>
+						<li class="open"><a href="javascript:void(0)">Project Reference</a></li>
+						<li class="open last"><a href="javascript:void(0)">Solar Basics</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="pageright">
+		
+		<div>
+		<div class="pageright" id="_about_1" style="display:block">
 			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
 			<div class="pagemain">
-				<ul class="title">Overview</ul>
-				<div class="content">
-					<p>
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Passionate about Innovation, Quality and Customer Service
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-					<p>
-					<p>
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Passionate about Innovation, Quality and Customer Service
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-					<p>
-					<p>
-						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-								Passionate about Innovation, Quality and Customer Service
-							</span>
-						</span>
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-						<br />
-						<br />
-						<span style="line-height: 17px; font-size: 12px;">
-							JA Solar Holdings Co., Ltd. is a world-leading manufacturer of high-performance solar power products 
-							that convert sunlight into electricity for residential, commercial, and utility-scale power generation. 
-							The company is committed to develop and provide the world with clean and renewable energy to ease the energy 
-							shortages as well as human kind&rsquo;s impact on the environment.
-						</span>
-					<p>
+				<ul class="title">Solar Module</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+					<span style="line-height: 17px; font-size: 12px;">
+						  AENTROPI was established in 2010 in the wake of the world’s countries became focusing on renewable energy and solar Photovoltaic in particular. AENTROPI spent the years analyzing markets and solar installation cases worldwide thereby creating an extensive knowledge about the best possible solutions to solar systems, not only for medium sized residential cases, but also for large scale embedded power plants. During the time, AENTROPI’s partners in Asia get the task of factories and products inspection and build up a supply chain that could ensure the products of highest quality.
+					</span>
 					
+					<br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						With a team of excellence, our knowledge, experience, and continual innovation have lead to highly successful gigawatt solar system installations and hundreds of turnkey megawatt power plants worldwide. AENTROPI provides industry-leading solar energy solutions that not only include panel manufacturing, but also package services throughout the entire life cycle of solar power plants, from project design, financing, engineering, procurement, and construction management through operations and maintenance services.
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Today, AENTROPI is grown into one of the leading suppliers of complete solar power solutions and has built a solid experience in the design of all types of PV systems, ranging from small installations to more advanced construction solutions. AENTROPI serves both as a consultant and supplier of complete PV systems for private, business, agriculture and government.
+					</span>
+					
+					<br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						AENTROPI concerned about the satisfaction of their customers, which is why we are always standing by to answer your questions. AENTROPI is staffed with knowledgeable experts who can help you select a solar panel or just explain the solar basics. If you have any questions, please do not hesitate to contact us.
+					</span>
 				</div>
 			</div>
 			
-			
-			<table class="featuredprojects_bottom">
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-			</table>
 			<div class="clear"></div>
+		</div>
+		
+		
+		
+<!--==============================about 2=======================================-->		
+		<div class="pageright" id="_about_2" style="display:none">
+			<div class="pagemain">
+				<ul class="title">System Solution</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+					<span style="line-height: 17px; font-size: 12px;">
+						Sustainable energy is the key solving the current environmental crisis. 
+						The mission of AENTROPI is to provide everyone with reliable and affordable access 
+						to the cleanest energy resource and the most efficient energy usages. As a vertical 
+						manufacturer of solar panels and solution provider, AENTROPI develops advanced and 
+						innovative technologies to drive down the cost of clean energy, making it economically viable 
+						for millions to harness nature’s power.
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						We also feel a strong obligation to help educate the public about alternative energy resources.
+						 AENTROPI works with educational institutions and organizations to promote clean energy and provide
+						  training. In the near future, AENTROPI will continue to carry out its goal of achieving social entrepreneurship.
+					</span>
+					
+					<br /><br />
+					
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about02.jpg" border="0"/>
+					</div>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						AENTROPI is not just another clean energy supplier. In every aspect, we carry out our commitment to 
+						provide customers with the best service possible. This goes far beyond our final products. We respond to your 
+						requests and questions at the speed of light. We reduce our advertising costs to help maximize your profits. We 
+						can ship any quantity of energy products that a customer may request. No project is too big for us. We are down 
+						to earth. All of these contribute to peace of mind when choosing clean energy.
+					</span>
+					<br />
+				</div>
+			</div>
+			
+		</div>
+		
+		
+<!--==============================about 3=======================================-->			
+		<div class="pageright" id="_about_3" style="display:none">
+			
+			<div class="pagemain">
+				<ul class="title">Off-grid</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+					<span style="line-height: 17px; font-size: 12px;">
+						“As one of their distributors, we have installed over 800 kilowatts of AENTROPI solar panels in South American region. We are extremely pleased with the quality of their service and products. Packaging, performance, and appearance of their products are unsurpassed by any of our other vendors.”
+					</span>
+					<br />
+					<div>
+						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
+							- Robert, Brazil
+						</span>
+					</div>
+					
+					<br /><br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						“AENTROPI team is very helpful and supportive. I once asked AENTROPI to help me for my own roof top solution, and they responded me the very next day with the complete design. At that time I have little knowledge about photovoltaic, I gained a lot during the talk with AENTROPI engineer. Now, cooperated with AENTROPI team, I am working as an EPC to develop Japanese solar projects.” 
+						
+					</span>
+					<br />
+					<div>
+						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
+							- S. Nakamura, Japan
+						</span>
+					</div>
+					<br /><br /><br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						“AENTROPI is professional in every aspect. Working with them is a fantastic experience. They provide plenty of complete solutions to choose from for different cases, and the price of their products is accessible.” 
+						
+					</span>
+					<br />
+					<div>
+						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
+							– Louis, UK
+						</span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+		
+		
+<!--==============================about 4=======================================-->		
+		<div class="pageright" id="_about_4" style="display:none">
+			<div class="pagemain">
+				<ul class="title">Download Center</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
+						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
+						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
+					</span>
+					
+					<br /><br />
+					
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
+					</div>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							Positions:
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Asia Pacific Region
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Senior Quality Control Manager
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing, China
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Project Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Europe
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Customer Service Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: London, United Kingdom
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
+					Apply here: HR@aentropi-power.com
+					</span>
+					<br />
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+		
+		
+<!--==============================about 5=======================================-->		
+		<div class="pageright" id="_about_5" style="display:none">
+			<div class="pagemain">
+				<ul class="title">Project Reference</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
+						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
+						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
+					</span>
+					
+					<br /><br />
+					
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
+					</div>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							Positions:
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Asia Pacific Region
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Senior Quality Control Manager
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing, China
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Project Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Europe
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Customer Service Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: London, United Kingdom
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
+					Apply here: HR@aentropi-power.com
+					</span>
+					<br />
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+<!--==============================about 6=======================================-->		
+		<div class="pageright" id="_about_6" style="display:none">
+			<div class="pagemain">
+				<ul class="title">Solar Basics</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
+						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
+						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
+					</span>
+					
+					<br /><br />
+					
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
+					</div>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							Positions:
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Asia Pacific Region
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Senior Quality Control Manager
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing, China
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Project Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: Nanjing
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px;">
+						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							Europe
+						</span>
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Title: Customer Service Engineer
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px;">
+						Location: London, United Kingdom
+					</span>
+					
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
+					Apply here: HR@aentropi-power.com
+					</span>
+					<br />
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+<!-- ===============================end of 6 divs =========================================-->		
 		</div>
 	</div>
 	
@@ -137,6 +400,20 @@
 	if(typeof(MenuMoveWithScroll)=="function"){
 		window.setTimeout(MenuMoveWithScroll,1);
 	}
+	
+	
+	$(document).ready(function(){
+		$("li").click(function(){
+			$(".submenu li").removeClass();
+			$(this).addClass("close");
+		
+			var _div_id = "#_about_" + (parseInt($(this).index()) + 1);
+			$(_div_id).siblings().css("display", "none");
+			$(_div_id).fadeIn(500);
+			//alert(_div_id);
+		});
+	});
+	
 </script>
 </html>
 

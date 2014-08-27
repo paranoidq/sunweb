@@ -16,9 +16,7 @@
 		<span style="margin-left:18px;">
 			You are here:&nbsp;
 			<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
-			<a href="$!{viewUtil.getContextPath()}/company">Company</a> - 
-			<a href="$!{viewUtil.getContextPath()}/company">About AENTROPI</a> - 
-			Overview
+			<a href="$!{viewUtil.getContextPath()}/company">About AENTROPI</a>
 		</span>
 	</div>
 	<div class="pagebody">
