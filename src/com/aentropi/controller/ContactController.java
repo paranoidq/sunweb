@@ -34,12 +34,12 @@ public class ContactController {
 		title.append("【Aentropi】‘").append(fromAddress).append(" leave a message for you");
 
 		StringBuilder content = new StringBuilder();
-		content.append("——From ：").append("").append(fromAddress).append("<br/><br/>");
+		content.append("<html>——From ：").append("").append(fromAddress).append("<br/><br/>");
 		content.append("——Content ：")
 				.append(c)
 				.append("<br/><br/>");
 		content.append("——His Email：").append(fromAddress)
-				.append("<br/><br/>");
+				.append("<br/><br/></html>");
 		
 		
 		try {
