@@ -24,13 +24,12 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="open last"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
+						<li class="close last"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="pageright">
-			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
 			<div class="pagemain">
 				<ul class="title">Contact Information</ul>
 				<div class="content">
@@ -46,7 +45,7 @@
 							exebry@gmail.com
 						</span>
 						<br />
-					<p>
+					</p>
 					<p>
 						<span style="line-height: 17px; font-size: 12px;">
 							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
@@ -58,30 +57,25 @@
 							999999999<br/>
 							exebry@gmail.com
 						</span>
-					<p>
+					</p>
 					
 				</div>
-				<ul class="title">Message</ul>
+				<ul class="title" style="margin-top:0px;">Message</ul>
 				<div class="content">
-					<form action="">
+					<form action="javascript:void(0)">
 						<span>Your email:</span><input type="text" name="fromAddress" id="_from_address"style="color:#6e6e70; margin-left:30px; width:250px;"/>
 						<div style="margin-top:10px; line-height:30px; vertical-align:top;">
 							<span style="vertical-align:top;">Your message:</span>
 							<textarea id="_content" style="margin-left:5px;margin-top:10px;width:439px;height:152px;color:#6e6e70;" ></textarea>
 						</div>
-						<button id="_send_btn" style="background-color:#2c9fe1; border:0px; color:#fff; margin-left:92px;margin-top:5px;">提交</button>
-						<span id="_success_info" style="margin-left:10px;color:#2c9fe1; display:none;">Deliver Success !</span>
-						<span id="_fail_info" style="margin-left:10px;color:red; display:none;">Deliver Failed. Please try again !</span>
+						<button id="_send_btn" style="background-color:#2c9fe1; border:0px; color:#fff; margin-left:92px;margin-top:5px;"><span>提交<span></button>
+						<span id="_deliver_info" style="margin-left:92px;color:#92e72e; display:none;">...Delivering...</span>
+						<span id="_success_info" style="margin-left:92px;color:#2c9fe1; display:none;">Deliver Success !</span>
+						<span id="_fail_info" style="margin-left:92px;color:red; display:none;">Deliver Failed. Please try again !</span>
 					</form>
 				</div>
 			</div>
 			
-			
-			<table class="featuredprojects_bottom">
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-			</table>
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -99,6 +93,10 @@
 	}
 	
 	$(document).ready(function(){
+		$("button").hover(function(){
+			$(this).css('cursor','pointer');
+		});
+	
 		$("#_send_btn").click(function(){
 			var _from_address = $("#_from_address").val();
 			var _content = $("#_content").val();
@@ -106,21 +104,28 @@
 			//alert(_from_address + _content);
 			if(_from_address == "") {
 				alert("Please enter your email address !");
+				return;
 			} else if(_content.trim() == ""){
 				alert("{Please enter your message !");
 			} else {
+				$("button").css("display", "none");
+				$("#_deliver_info").css("display", "block");
 				$.ajax({
 					url: "$!{viewUtil.getContextPath()}/p_send_email",
 					type: "post",
 					data: {fromAddress:_from_address, content:_content},
 					dataType: "html",
 					success:function(data){
+						$("#_deliver_info").css("display", "none");
 						$("#_success_info").css("display", "inline-block");
 						$('#_success_info').delay(3000).fadeOut();
+						window.setTimeout('location.reload()', 2000);
 					},
 					error:function(){
+						$("#_deliver_info").css("display", "none");
 						$("#_fail_info").css("display", "inline-block");
 						$('#_fail_info').delay(3000).hide(0);
+						window.setTimeout('location.reload()', 2000);
 					}
 				});
 			}

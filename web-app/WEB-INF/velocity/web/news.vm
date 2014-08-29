@@ -24,7 +24,7 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="open last"><a href="$!{viewUtil.getContextPath()}/news/">News</a></li>
+						<li class="close last"><a href="$!{viewUtil.getContextPath()}/news/">News</a></li>
 					</ul>
 				</div>
 			</div>

@@ -44,11 +44,12 @@ public class MailIssue {
 			message.saveChanges();
 
 			// 发送邮件
-			Transport transport = s.getTransport("smtp");
+			Transport transport = s.getTransport("smtps");
 			// 以smtp方式登录邮箱,第一个参数是发送邮件用的邮件服务器SMTP地址,第二个参数为用户名,第三个参数为密码
 			transport.connect(Constant.mailServer, Constant.mailAccount,
 					Constant.mailPassword);
 			// 发送邮件,其中第二个参数是所有已设好的收件人地址
+			
 			transport.sendMessage(message, message.getAllRecipients());
 			transport.close();
 

@@ -4,7 +4,6 @@ import java.io.PrintWriter;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -35,16 +34,16 @@ public class ContactController {
 		title.append("【Aentropi】‘").append(fromAddress).append(" leave a message for you");
 
 		StringBuilder content = new StringBuilder();
-		content.append("<html>")
-				.append("——来自：").append("<h3>").append(fromAddress).append("</h3>");
-		content.append("<br/><p>内容：")
+		content.append("——From ：").append("").append(fromAddress).append("<br/><br/>");
+		content.append("——Content ：")
 				.append(c)
-				.append("</p>");
-		content.append("<br/><p>他（她）的邮箱：").append(fromAddress)
-				.append("</p></html>");
+				.append("<br/><br/>");
+		content.append("——His Email：").append(fromAddress)
+				.append("<br/><br/>");
+		
 		
 		try {
-			MailIssue.send(fromAddress, c.toString(), toAddress);
+			MailIssue.send(title.toString(), content.toString(), toAddress);
 			PrintWriter out = response.getWriter();
 			out.write("1");
 		} catch (Exception e) {
