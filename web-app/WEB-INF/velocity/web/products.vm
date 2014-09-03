@@ -37,33 +37,195 @@
 		
 		<div>
 		<div class="pageright" id="_about_1" style="display:block">
-			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
 			<div class="pagemain">
-				<ul class="title">Solar Module</ul>
+				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;margin-left:15px">
+					  Module Characteristics
+				</span>
+				<br /><br />
+				
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
-					<span style="line-height: 17px; font-size: 12px;">
-						  AENTROPI was established in 2010 in the wake of the world’s countries became focusing on renewable energy and solar Photovoltaic in particular. AENTROPI spent the years analyzing markets and solar installation cases worldwide thereby creating an extensive knowledge about the best possible solutions to solar systems, not only for medium sized residential cases, but also for large scale embedded power plants. During the time, AENTROPI’s partners in Asia get the task of factories and products inspection and build up a supply chain that could ensure the products of highest quality.
+					<span style="line-height: 17px; font-size: 12px;color:#707070;">
+						  
 					</span>
-					
-					<br /><br /><br />
-					
 					<span style="line-height: 17px; font-size: 12px;">
-						With a team of excellence, our knowledge, experience, and continual innovation have lead to highly successful gigawatt solar system installations and hundreds of turnkey megawatt power plants worldwide. AENTROPI provides industry-leading solar energy solutions that not only include panel manufacturing, but also package services throughout the entire life cycle of solar power plants, from project design, financing, engineering, procurement, and construction management through operations and maintenance services.
+					   High module conversion efficiency up to 16.59%
 					</span>
 					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Today, AENTROPI is grown into one of the leading suppliers of complete solar power solutions and has built a solid experience in the design of all types of PV systems, ranging from small installations to more advanced construction solutions. AENTROPI serves both as a consultant and supplier of complete PV systems for private, business, agriculture and government.
-					</span>
 					
+					<span style="line-height: 17px; font-size: 12px;color:#707070;">
+						  
+					</span>
+					<span style="line-height: 17px; font-size: 12px;">
+					   Positive Tolerance
+					</span>
+					<br />
+					
+					<span style="line-height: 17px; font-size: 12px;color:#707070;">
+						  
+					</span>
+					<span style="line-height: 17px; font-size: 12px;">
+					   PID resistance
+					</span>
+					<br />
+					
+					<span style="line-height: 17px; font-size: 12px;color:#707070;">
+						  
+					</span>
+					<span style="line-height: 17px; font-size: 12px;">
+					   Certificated to withstand extreme conditions 
+					</span>
+					<br />
+					
+					<span style="line-height: 17px; font-size: 12px;color:#707070;">
+						  
+					</span>
+					<span style="line-height: 17px; font-size: 12px;">
+					  10 year workmanship guarantee and 25 year power output guarantee
+					</span>
+					<br />
+					
+					<span style="line-height: 17px; font-size: 12px;color:#707070;">
+						  
+					</span>
+					<span style="line-height: 17px; font-size: 12px;">
+					  Customized modules according to requirements
+					</span>
+					<br />
+				</div>
+				<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/product_01.jpg" border="0"/></div>
+				<br /><br />
+				
+				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+					 Monocrystalline Silicon Module
+				</span>
+				<br /><br />
+		<div>
+			<div  class="content" style="display:inline-block;" >
+				<div class="subpage_banner" style="display:inline-block;">
+					<img src="$!{viewUtil.getContextPath()}/static/images/product_02.jpg" border="0"/>
+				</div>	
+				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+						Mono ATP220-270 Watt
+					</span>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; ">
+						Cell(mm): Mono 156x156 
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px; ">
+						No.of cells: 60 (6×10)
+					</span>
 					<br /><br /><br />
 					
-					<span style="line-height: 17px; font-size: 12px;">
-						AENTROPI concerned about the satisfaction of their customers, which is why we are always standing by to answer your questions. AENTROPI is staffed with knowledgeable experts who can help you select a solar panel or just explain the solar basics. If you have any questions, please do not hesitate to contact us.
+					<div class="subpage_banner" style="display:inline-block; color:#989898">
+						<span style="line-height: 17px; font-size: 12px; ">
+							Datasheet
+						</span>
+						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+							Warranty
+						</span>
+					</div>
+				</div>
+			</div>	
+			<div  class="content" style="display:inline-block;" >
+				<div class="subpage_banner" style="display:inline-block;">
+					<img src="$!{viewUtil.getContextPath()}/static/images/product_03.jpg" border="0"/>
+				</div>	
+				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+						Mono ATP255-320 Watt
 					</span>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; ">
+						Cell(mm): Mono 156x156 
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px; ">
+						No.of cells: 72 (6×12)
+					</span>
+					<br /><br /><br />
+					
+					<div class="subpage_banner" style="display:inline-block; color:#989898">
+						<span style="line-height: 17px; font-size: 12px; ">
+							Datasheet
+						</span>
+						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+							Warranty
+						</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+					Polycrystalline Silicon Module
+				</span>
+				<br /><br />
+		<div>
+			<div  class="content" style="display:inline-block;" >
+				<div class="subpage_banner" style="display:inline-block;">
+					<img src="$!{viewUtil.getContextPath()}/static/images/product_04.jpg" border="0"/>
+				</div>	
+				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+						Poly ATP230-275 Watt 
+					</span>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; ">
+						Cell(mm): Poly 156x156 
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px; ">
+						No.of cells: 60 (6×10)
+					</span>
+					<br /><br /><br />
+					
+					<div class="subpage_banner" style="display:inline-block; color:#989898">
+						<span style="line-height: 17px; font-size: 12px; ">
+							Datasheet
+						</span>
+						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+							Warranty
+						</span>
+					</div>
+				</div>
+			</div>	
+			<div  class="content" style="display:inline-block;" >
+				<div class="subpage_banner" style="display:inline-block;">
+					<img src="$!{viewUtil.getContextPath()}/static/images/product_05.jpg" border="0"/>
+				</div>	
+				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+						Poly ATP275-335 Watt
+					</span>
+					<br /><br />
+					
+					<span style="line-height: 17px; font-size: 12px; ">
+						Cell(mm): Mono 156x156 
+					</span>
+					<br />
+					<span style="line-height: 17px; font-size: 12px; ">
+						No.of cells: 72 (6×12)
+					</span>
+					<br /><br /><br />
+					
+					<div class="subpage_banner" style="display:inline-block; color:#989898">
+						<span style="line-height: 17px; font-size: 12px; ">
+							Datasheet
+						</span>
+						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+							Warranty
+						</span>
+					</div>
 				</div>
 			</div>
+		</div>
+			</div>
 			
-			<div class="clear"></div>
+			
 		</div>
 		
 		
@@ -577,7 +739,7 @@
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
 						The balance of system or “BOS” encompasses all components of a photovoltaic system other than the solar PV panels. This includes wiring, switches, support racks, an inverter, and batteries in the case of off-grid systems. In the case of free-standing systems, land is sometimes included as part of the BOS.
-					<span/>
+					</span>
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
