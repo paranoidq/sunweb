@@ -64,13 +64,16 @@
 				<div class="content">
 					<form action="javascript:void(0)">
 						<span>Your email:</span><input type="text" name="fromAddress" id="_from_address"style="color:#6e6e70; margin-left:30px; width:250px;"/>
+						<span class="email_warning_1 warning" style="display:none;">Please enter email address !</span>
+						<span class="email_warning_2 warning" style="display:none;">Please enter correct email address !</span>
 						<div style="margin-top:10px; line-height:30px; vertical-align:top;">
 							<span style="vertical-align:top;">Your message:</span>
 							<textarea id="_content" style="margin-left:5px;margin-top:10px;width:439px;height:152px;color:#6e6e70;" ></textarea>
+							<span style="vertical-align:top; display:none;" class="message_warning warning">Please enter message !</span>
 						</div>
 						<button id="_send_btn" style="background-color:#2c9fe1; border:0px; color:#fff; margin-left:92px;margin-top:5px; font-weight:bold; font-size:13px;"><span>提交<span></button>
-						<span id="_deliver_info" style="margin-left:92px;color:#3aad07; display:none;">...Delivering...</span>
-						<span id="_success_info" style="margin-left:92px;color:#2c9fe1; display:none;">Deliver Success !</span>
+						<span id="_deliver_info" style="margin-left:92px;color:#3aad07; display:none;">... Delivering ...</span>
+						<span id="_success_info" style="margin-left:92px;color:#2c9fe1; display:none;">Deliver Success. Thanks for your message !</span>
 						<span id="_fail_info" style="margin-left:92px;color:red; display:none;">Deliver Failed. Please try again !</span>
 					</form>
 				</div>
@@ -83,6 +86,12 @@
 	#parse("web/common/footer.vm")
 	
 </body>
+
+<style>
+.email_warning_1 {color:red; font-size:12px; font-style:italic; margin-left:10px;}
+.email_warning_2 {color:red; font-size:12px; font-style:italic; margin-left:10px;}
+.message_warning {color:red; font-size:12px; font-style:italic; margin-left:10px;}
+</style>
 
 <script type="text/javascript">
 	jQuery(function(){
@@ -98,15 +107,22 @@
 		});
 	
 		$("#_send_btn").click(function(){
+			$(".warning").css("display", "none");
+		
 			var _from_address = $("#_from_address").val();
 			var _content = $("#_content").val();
 			
 			//alert(_from_address + _content);
 			if(_from_address == "") {
-				alert("Please enter your email address !");
+				//alert("Please enter your email address !");
+				$(".email_warning_1").fadeIn(1000);
+				return;
+			} else if(_from_address.indexOf("@") == -1) {
+				$(".email_warning_2").fadeIn(1000);
 				return;
 			} else if(_content.trim() == ""){
-				alert("{Please enter your message !");
+				$(".message_warning").fadeIn(1000);
+				return;
 			} else {
 				$("button").css("display", "none");
 				$("#_deliver_info").css("display", "block");
@@ -119,13 +135,17 @@
 						$("#_deliver_info").css("display", "none");
 						$("#_success_info").css("display", "inline-block");
 						$('#_success_info').delay(3000).fadeOut();
-						window.setTimeout('location.reload()', 2000);
+						//window.setTimeout('location.reload()', 2000);
+						$("button").delay(3500).fadeIn();
+						$("#_from_address").val("");
+						$("#_content").val("");
 					},
 					error:function(){
 						$("#_deliver_info").css("display", "none");
 						$("#_fail_info").css("display", "inline-block");
 						$('#_fail_info').delay(3000).hide(0);
-						window.setTimeout('location.reload()', 2000);
+						//window.setTimeout('location.reload()', 2000);
+						$("button").delay(3500).fadeIn();
 					}
 				});
 			}

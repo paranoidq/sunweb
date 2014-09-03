@@ -69,15 +69,15 @@
 		<div class="index_case"> 
 			<div class="index_content_title">
 				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)" style="line-height:18px; vertical-align:bottom;">
-					<a href="#" class="aWhite no_underline">
+					<a href="$!{viewUtil.getContextPath()}/products/5" class="aWhite no_underline">
 						<font style="font-size:18px;">Cases</font>
 					</a>
-					<a class="index_more" href="#" target="_blank">
+					<a class="index_more" href="$!{viewUtil.getContextPath()}/products/5">
 						<font style="font-size:13px; float:right;">...more</font>
 					</a>
 				</li>
 			</div>
-			<a href="#" target="_blank"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.jpg"></a>
+			<a href="$!{viewUtil.getContextPath()}/products/5"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.jpg"></a>
 		</div>
 		<!-- Content Cases End -->
 		<div class="clear"></div>

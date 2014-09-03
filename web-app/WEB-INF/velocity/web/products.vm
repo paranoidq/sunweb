@@ -23,13 +23,13 @@
 		<div class="pageleft">
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
-					<ul class="submenu">
-						<li class="close"><a href="javascript:void(0)">Solar Module</a></li>
-						<li class="open"><a href="javascript:void(0)" >System Solution</a></li>
-						<li class="open"><a href="javascript:void(0)">Off-grid</a></li>
-						<li class="open"><a href="javascript:void(0)">Download Center</a></li>
-						<li class="open"><a href="javascript:void(0)">Project Reference</a></li>
-						<li class="open last"><a href="javascript:void(0)">Solar Basics</a></li>
+					<ul class="submenu" id="side_menu">
+						<li class="close" id="menu_1"><a href="javascript:void(0)">Solar Module</a></li>
+						<li class="open" id="menu_2"><a href="javascript:void(0)" >System Solution</a></li>
+						<li class="open" id="menu_3"><a href="javascript:void(0)">Off-grid</a></li>
+						<li class="open" id="menu_4"><a href="javascript:void(0)">Download Center</a></li>
+						<li class="open" id="menu_5"><a href="javascript:void(0)">Project Reference</a></li>
+						<li class="open last id="menu_6""><a href="javascript:void(0)">Solar Basics</a></li>
 					</ul>
 				</div>
 			</div>
@@ -71,44 +71,83 @@
 <!--==============================about 2=======================================-->		
 		<div class="pageright" id="_about_2" style="display:none">
 			<div class="pagemain">
-				<ul class="title">System Solution</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
+				<ul class="title">Services</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
 					<span style="line-height: 17px; font-size: 12px;">
-						Sustainable energy is the key solving the current environmental crisis. 
-						The mission of AENTROPI is to provide everyone with reliable and affordable access 
-						to the cleanest energy resource and the most efficient energy usages. As a vertical 
-						manufacturer of solar panels and solution provider, AENTROPI develops advanced and 
-						innovative technologies to drive down the cost of clean energy, making it economically viable 
-						for millions to harness nature’s power.
+						With a team of professional experts, we provide our clients with PV system project 
+						design and installation guide services, including pre-planning, program selection, 
+						feasibility studies, engineering design, equipment procurement, which could realize the 
+						customized solar energy solution accessible for each and every of our clients.
 					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						We also feel a strong obligation to help educate the public about alternative energy resources.
-						 AENTROPI works with educational institutions and organizations to promote clean energy and provide
-						  training. In the near future, AENTROPI will continue to carry out its goal of achieving social entrepreneurship.
-					</span>
-					
-					<br /><br />
-					
+					<br/>
+					<br/>
 					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/about02.jpg" border="0"/>
+						<img src="$!{viewUtil.getContextPath()}/static/images/system_solution.jpg" border="0"/>
 					</div>
-					
-					<br /><br />
-					
+				</div>
+				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Early Research</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
 					<span style="line-height: 17px; font-size: 12px;">
-						AENTROPI is not just another clean energy supplier. In every aspect, we carry out our commitment to 
-						provide customers with the best service possible. This goes far beyond our final products. We respond to your 
-						requests and questions at the speed of light. We reduce our advertising costs to help maximize your profits. We 
-						can ship any quantity of energy products that a customer may request. No project is too big for us. We are down 
-						to earth. All of these contribute to peace of mind when choosing clean energy.
+						<ul>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Project Location</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Installation area</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Transformer capacity / the ability to send power</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Capital and the rough size</li>
+						</ul>
 					</span>
-					<br />
+					<br/>
+				</div>
+				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Project Proposals</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
+					<span style="line-height: 17px; font-size: 12px;">
+						<ul>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Project background and necessity</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Situation at home and abroad</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>System configuration</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Method of being connected to grid</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Installation and commissioning solution</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Budgetary estimates</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Measurement of capacity</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Financial analysis</li>
+						</ul>
+					</span>
+					<br/>
+				</div>
+				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Engineering Design</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
+					<span style="line-height: 17px; font-size: 12px;">
+						<ul>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar module selection</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>The selection of electrical equipment</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Monitoring and communication system design</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>BIPV designDesign of capital construction</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Design of capital construction</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Design of power grid access system</li>
+						</ul>
+					</span>
+					<br/>
+				</div>
+				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Engineering Management</ul>
+				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
+					<span style="line-height: 17px; font-size: 12px;">
+						<ul>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Supervising the project according to the relevant standards and requirements of drawings</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Management of safety, quality and schedule on the construction site</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Making equipment and materials plans</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Procurement of the equipment and materials according to design and customer requirements</li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Preparation of various material of report for approval and construction</li>
+						</ul>
+						<br/>
+					</span>
 				</div>
 			</div>
-			
+			<table class="featuredprojects_bottom">
+				<tbody>
+				<tr>
+					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
+				</tr>
+			</tbody>
+			</table>
 		</div>
 		
 		
@@ -239,73 +278,243 @@
 <!--==============================about 5=======================================-->		
 		<div class="pageright" id="_about_5" style="display:none">
 			<div class="pagemain">
-				<ul class="title">Project Reference</ul>
+				<ul class="title">Worldwide Project Reference Since 2010</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
-						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
-						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
+					<span style="line-height: 17px; font-size: 12px;">
+						Since the establishment, AENTROPI has actively expanded worldwide business with PV system projects 
+						in Europe, South America, Japan, China, etc. Based on the world first-class processing technology and 
+						equipments, advanced management and high quality professional talents, excellent product quality and 
+						service guarantee, our company has set up good brand reputation and obtained stable market share.
 					</span>
 					
 					<br /><br />
-					
-					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
-					</div>
-					
+					<div style="" class="content_splitter"></div>
 					<br /><br />
 					
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
-							Positions:
+					<table class="project_page" id="_project_page_1">
+						<tbody>
+							<tr>
+								<td width="360" >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/01.jpg" style="height:100px;weight:130px;"/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Trebnje,Slovenia</div>
+										<div style="margin: 10px 0px;">Capacity: 15KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-250P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: November 2010</div>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/02.jpg" style="height:100px;weight:130px; " />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Heusden-Zolder, Belgium</div>
+										<div style="margin: 10px 0px;">Capacity: 817 KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: January 2011</div>
+									</div>
+								</td>
+							</tr>
+							<tr height="140">
+								<td >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/03.jpg" style="height:100px;weight:130px; "/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px; ">
+										<div style="margin: 5px 0 10px 0;">Location: Varde Gymnasium, Denmark</div>
+										<div style="margin: 10px 0px;">Capacity: 4.140KW</div>
+										<div style="margin: 10px 0px;">Product Type: ATP-230P Black</div>
+										<div style="margin: 10px 0 5px 0;">Completion: August 2011</div>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/04.jpg" style="height:100px;weight:130px;" />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Cupertino, United States</div>
+										<div style="margin: 10px 0px;">Capacity: 5KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: September 2011</div>
+									</div>
+								</td>
+							</tr>
+							<tr height="100">
+								<td >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/05.jpg" style="height:100px;weight:130px;"/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Loods Lobberich, Holland</div>
+										<div style="margin: 10px 0px;">Capacity: 37.30KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: June 2011</div>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/06.jpg" style="height:100px;weight:130px;" />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Heusden-Zolder, Belgium</div>
+										<div style="margin: 10px 0px;">Capacity: 3.5MW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: June 2011</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					
+					<table class="project_page" id="_project_page_2"  style="display:none">
+						<tbody >
+							<tr>
+								<td width="360" >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/07.jpg" style="height:100px;weight:130px;"/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Ascoli Piceno, Italy</div>
+										<div style="margin: 10px 0px;">Capacity: 7KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: July 2011</div>
+									</div>
+								</td>
+								<td width="380">
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/08.jpg" style="height:100px;weight:130px; " />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location:Fougerolles du Plessis, France</div>
+										<div style="margin: 10px 0px;">Capacity: 2.78MW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: February 2012</div>
+									</div>
+								</td>
+							</tr>
+							<tr height="140">
+								<td >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/09.jpg" style="height:100px;weight:130px; "/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px; ">
+										<span>
+											<div style="margin: 5px 0 10px 0;">Location: Floressas, France</div>
+											<div style="margin: 10px 0px;">Capacity: 135KW</div>
+											<div style="margin: 10px 0px;">Product type: ATP-190P</div>
+											<div style="margin: 10px 0 5px 0;">Completion: February 2012</div>
+										</span>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/10.jpg" style="height:100px;weight:130px;" />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<span>
+										<div style="margin: 5px 0 10px 0;">Location: San Jose, Costa Rica</div>
+										<div style="margin: 10px 0px;">Capacity: 500KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: August 2012</div>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr height="100">
+								<td >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/11.jpg" style="height:100px;weight:130px;"/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Project: Loods Lobberich, Holland </div>
+										<div style="margin: 10px 0px;">Capacity: 37.30 KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: October 2012</div>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/12.jpg" style="height:100px;weight:130px;" />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Kawazoe Power Farm, Japan</div>
+										<div style="margin: 10px 0px;">Capacity: 1.2MW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-300M</div>
+										<div style="margin: 10px 0 5px 0;">Completion: October 2012</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<table class="project_page" id="_project_page_3" style="display:none">
+						<tbody >
+							<tr>
+								<td width="360" >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/13.jpg" style="height:100px;weight:130px;"/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Van Kempen  Netherland</div>
+										<div style="margin: 10px 0px;">Capacity: 100 KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-275P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: March 2013</div>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/14.jpg" style="height:100px;weight:130px; " />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<div style="margin: 5px 0 10px 0;">Location: Trebnje, Slovenia</div>
+										<div style="margin: 10px 0px;">Capacity: 2.5MW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: June 2013</div>
+									</div>
+								</td>
+							</tr>
+							<tr height="140">
+								<td >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/15.jpg" style="height:100px;weight:130px; "/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px; ">
+										<span>
+											<div style="margin: 5px 0 10px 0;">Location: Yancheng, China</div>
+											<div style="margin: 10px 0px;">Capacity: 2MW</div>
+											<div style="margin: 10px 0px;">Product type: ATP-230P</div>
+											<div style="margin: 10px 0 5px 0;">Completion: September 2013</div>
+										</span>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/16.jpg" style="height:100px;weight:130px;" />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<span>
+										<div style="margin: 5px 0 10px 0;">Location: Nishiki, Japan</div>
+										<div style="margin: 10px 0px;">Capacity: 2.18MW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-300P</div>
+										<div style="margin: 10px 0 5px 0;">Completion: September 2013</div>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr height="100">
+								<td >
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/17.jpg" style="height:100px;weight:130px;"/>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<span>
+											<div style="margin: 5px 0 10px 0;">Location: Ishioka, Ibaraki, Japan</div>
+											<div style="margin: 10px 0px;">System Size: 49KW</div>
+											<div style="margin: 10px 0px;">Product type: ATP-300M</div>
+											<div style="margin: 10px 0 5px 0;">Completion: March 2014</div>
+										</span>
+									</div>
+								</td>
+								<td>
+									<img src="$!{viewUtil.getContextPath()}/static/images/project/18.jpg" style="height:100px;weight:130px;" />
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+										<span>
+										<div style="margin: 5px 0 10px 0;">Location: Trebnje, Slovenia</div>
+										<div style="margin: 10px 0px;">Capacity: 15KW</div>
+										<div style="margin: 10px 0px;">Product type: ATP-250M</div>
+										<div style="margin: 10px 0 5px 0;">Completion: July 2014</div>
+										</span>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					
+					
+					<br/></br>
+					<div style="" class="content_splitter"></div>
+					
+					<span style="line-height: 17px; font-size: 12px; float:right;" id="_project_pagenumbers">
+						<span style="line-height: 30px; font-size: 14px; font-weight:bold;margin: 0 5px;">
+							<a href="javascript:void(0)" id="btn_1" style="color:#2c9fe1; text-decoration:underline;">1</a>
+						</span>
+						<span style="line-height: 30px; font-size: 14px; font-weight:bold;margin: 0 5px;">
+							<a href="javascript:void(0)" id="btn_2" style="color:#6e6e70">2</a>
+						</span>
+						<span style="line-height: 30px; font-size: 14px; font-weight:bold;margin: 0 5px;">
+							<a href="javascript:void(0)" id="btn_3" style="color:#6e6e70">3</a>
 						</span>
 					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							Asia Pacific Region
-						</span>
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Senior Quality Control Manager
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing, China
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Project Engineer
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							Europe
-						</span>
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Customer Service Engineer
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: London, United Kingdom
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
-					Apply here: HR@aentropi-power.com
-					</span>
-					<br />
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -317,8 +526,8 @@
 				<ul class="title">Solar Basics</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							1. Solar Energy
+						<span style="color: #2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar Energy
 						</span>
 					</span>
 					<br />
@@ -328,8 +537,8 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							2. Photovoltaics
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Photovoltaics
 						</span>
 					</span>
 					<br />
@@ -339,8 +548,8 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							3. Solar Cells
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar Cells
 						</span>
 					</span>
 					<br />
@@ -350,8 +559,8 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							4. Solar Panels/Solar Modules						
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar Panels/Solar Modules						
 						</span>
 					</span>
 					<br />
@@ -361,8 +570,8 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							5. Balance of Systems	
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Balance of Systems	
 						</span>
 					</span>
 					<br />
@@ -372,8 +581,8 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							6. Inverter	
+						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Inverter	
 						</span>
 					</span>
 					<br />
@@ -394,6 +603,13 @@
 </body>
 
 <script type="text/javascript">
+	
+	// 无刷新改变url状态
+	function changeURL(id){
+		window.history.pushState({},0,'http://'+window.location.host+'/products/'+ id);		
+	}
+		
+
 	jQuery(function(){
 		jQuery('ul.sf-menu').superfish();
 	});
@@ -403,14 +619,41 @@
 	
 	
 	$(document).ready(function(){
-		$("li").click(function(){
+		
+		if($!{sectionId} != 0) {
+			var sectionId = $!{sectionId};
+			var _div_id = "#_about_" + sectionId;
+			$(_div_id).siblings().css("display", "none");
+			$(_div_id).css("display", "block");
+			$("#menu_"+sectionId).siblings().removeClass();
+			$("#menu_"+sectionId).addClass("close");
+		}
+	
+		$("#side_menu li").click(function(){
 			$(".submenu li").removeClass();
 			$(this).addClass("close");
 		
-			var _div_id = "#_about_" + (parseInt($(this).index()) + 1);
+			var _id = parseInt($(this).index());
+			var _div_id = "#_about_" + (_id + 1);
 			$(_div_id).siblings().css("display", "none");
 			$(_div_id).fadeIn(500);
 			//alert(_div_id);
+			
+			changeURL(_id+1);
+		});
+		
+		
+		$("#_project_pagenumbers span a").click(function(){
+			$(this).css("color", "#2c9fe1");
+			$(this).css("text-decoration", "underline");
+			
+			$(this).parent().siblings().find("a").css("color", "#6e6e70");
+			$(this).parent().siblings().find("a").css("text-decoration", "none");
+			
+			var pageNumberBtn_id = $(this).attr("id");
+			var page_id = "#_project_page_" + parseInt(pageNumberBtn_id.substring(pageNumberBtn_id.lastIndexOf("_")+1));
+			$(page_id).siblings("table").css("display", "none");
+			$(page_id).fadeIn(500);
 		});
 	});
 	
