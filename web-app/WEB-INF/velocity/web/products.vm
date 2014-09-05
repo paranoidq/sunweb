@@ -38,11 +38,7 @@
 		<div>
 		<div class="pageright" id="_about_1" style="display:block">
 			<div class="pagemain">
-				<span style="line-height: 20px; font-size: 15px; color:#2c9fe1;font-weight:bold;margin-left:15px">
-					  Module Characteristics
-				</span>
-				<br /><br />
-				
+				<ul class="title">Module Characteristics</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
 					<span style="line-height: 17px; font-size: 12px;">
 						<ul>
@@ -185,7 +181,6 @@
 					</div>
 				</div>
 			</div>
-			<div style="margin-left:25px" class="content_splitter"></div>
 			<br /><br />
 		</div>
 	</div>
@@ -422,17 +417,17 @@
 							<tr>
 								<td width="360" >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/01.jpg" style="height:100px;weight:130px;"/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Trebnje,Slovenia</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0; color:#2c9fe1;">Trebnje,Slovenia</div>
 										<div style="margin: 10px 0px;">Capacity: 15KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-250P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: November 2010</div>
 									</div>
 								</td>
-								<td>
+								<td width="380">
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/02.jpg" style="height:100px;weight:130px; " />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Heusden-Zolder, Belgium</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Heusden-Zolder, Belgium</div>
 										<div style="margin: 10px 0px;">Capacity: 817 KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: January 2011</div>
@@ -442,8 +437,8 @@
 							<tr height="140">
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/03.jpg" style="height:100px;weight:130px; "/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px; ">
-										<div style="margin: 5px 0 10px 0;">Location: Varde Gymnasium, Denmark</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px; ">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Varde Gymnasium, Denmark</div>
 										<div style="margin: 10px 0px;">Capacity: 4.140KW</div>
 										<div style="margin: 10px 0px;">Product Type: ATP-230P Black</div>
 										<div style="margin: 10px 0 5px 0;">Completion: August 2011</div>
@@ -451,8 +446,8 @@
 								</td>
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/04.jpg" style="height:100px;weight:130px;" />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Cupertino, United States</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Cupertino, United States</div>
 										<div style="margin: 10px 0px;">Capacity: 5KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: September 2011</div>
@@ -462,8 +457,8 @@
 							<tr height="100">
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/05.jpg" style="height:100px;weight:130px;"/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Loods Lobberich, Holland</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Loods Lobberich, Holland</div>
 										<div style="margin: 10px 0px;">Capacity: 37.30KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: June 2011</div>
@@ -471,8 +466,8 @@
 								</td>
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/06.jpg" style="height:100px;weight:130px;" />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Heusden-Zolder, Belgium</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Heusden-Zolder, Belgium</div>
 										<div style="margin: 10px 0px;">Capacity: 3.5MW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: June 2011</div>
@@ -488,8 +483,8 @@
 							<tr>
 								<td width="360" >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/07.jpg" style="height:100px;weight:130px;"/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Ascoli Piceno, Italy</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Ascoli Piceno, Italy</div>
 										<div style="margin: 10px 0px;">Capacity: 7KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: July 2011</div>
@@ -497,8 +492,8 @@
 								</td>
 								<td width="380">
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/08.jpg" style="height:100px;weight:130px; " />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location:Fougerolles du Plessis, France</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Fougerolles du Plessis, France</div>
 										<div style="margin: 10px 0px;">Capacity: 2.78MW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: February 2012</div>
@@ -508,9 +503,9 @@
 							<tr height="140">
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/09.jpg" style="height:100px;weight:130px; "/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px; ">
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px; ">
 										<span>
-											<div style="margin: 5px 0 10px 0;">Location: Floressas, France</div>
+											<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Floressas, France</div>
 											<div style="margin: 10px 0px;">Capacity: 135KW</div>
 											<div style="margin: 10px 0px;">Product type: ATP-190P</div>
 											<div style="margin: 10px 0 5px 0;">Completion: February 2012</div>
@@ -519,9 +514,9 @@
 								</td>
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/10.jpg" style="height:100px;weight:130px;" />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
 										<span>
-										<div style="margin: 5px 0 10px 0;">Location: San Jose, Costa Rica</div>
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">San Jose, Costa Rica</div>
 										<div style="margin: 10px 0px;">Capacity: 500KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: August 2012</div>
@@ -532,8 +527,8 @@
 							<tr height="100">
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/11.jpg" style="height:100px;weight:130px;"/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Project: Loods Lobberich, Holland </div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Loods Lobberich, Holland </div>
 										<div style="margin: 10px 0px;">Capacity: 37.30 KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: October 2012</div>
@@ -541,8 +536,8 @@
 								</td>
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/12.jpg" style="height:100px;weight:130px;" />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Kawazoe Power Farm, Japan</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Kawazoe Power Farm, Japan</div>
 										<div style="margin: 10px 0px;">Capacity: 1.2MW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-300M</div>
 										<div style="margin: 10px 0 5px 0;">Completion: October 2012</div>
@@ -557,17 +552,17 @@
 							<tr>
 								<td width="360" >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/13.jpg" style="height:100px;weight:130px;"/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Van Kempen  Netherland</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Van Kempen  Netherland</div>
 										<div style="margin: 10px 0px;">Capacity: 100 KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-275P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: March 2013</div>
 									</div>
 								</td>
-								<td>
+								<td width="380">
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/14.jpg" style="height:100px;weight:130px; " />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
-										<div style="margin: 5px 0 10px 0;">Location: Trebnje, Slovenia</div>
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Trebnje, Slovenia</div>
 										<div style="margin: 10px 0px;">Capacity: 2.5MW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: June 2013</div>
@@ -577,9 +572,9 @@
 							<tr height="140">
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/15.jpg" style="height:100px;weight:130px; "/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px; ">
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px; ">
 										<span>
-											<div style="margin: 5px 0 10px 0;">Location: Yancheng, China</div>
+											<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Yancheng, China</div>
 											<div style="margin: 10px 0px;">Capacity: 2MW</div>
 											<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 											<div style="margin: 10px 0 5px 0;">Completion: September 2013</div>
@@ -588,9 +583,9 @@
 								</td>
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/16.jpg" style="height:100px;weight:130px;" />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
 										<span>
-										<div style="margin: 5px 0 10px 0;">Location: Nishiki, Japan</div>
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Nishiki, Japan</div>
 										<div style="margin: 10px 0px;">Capacity: 2.18MW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-300P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: September 2013</div>
@@ -601,9 +596,9 @@
 							<tr height="100">
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/17.jpg" style="height:100px;weight:130px;"/>
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
 										<span>
-											<div style="margin: 5px 0 10px 0;">Location: Ishioka, Ibaraki, Japan</div>
+											<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Ishioka, Ibaraki, Japan</div>
 											<div style="margin: 10px 0px;">System Size: 49KW</div>
 											<div style="margin: 10px 0px;">Product type: ATP-300M</div>
 											<div style="margin: 10px 0 5px 0;">Completion: March 2014</div>
@@ -612,9 +607,9 @@
 								</td>
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/18.jpg" style="height:100px;weight:130px;" />
-									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:10px;">
+									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
 										<span>
-										<div style="margin: 5px 0 10px 0;">Location: Trebnje, Slovenia</div>
+										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Trebnje, Slovenia</div>
 										<div style="margin: 10px 0px;">Capacity: 15KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-250M</div>
 										<div style="margin: 10px 0 5px 0;">Completion: July 2014</div>
@@ -652,7 +647,7 @@
 				<ul class="title">Solar Basics</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: #2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+						<span style="line-height: 30px; font-size: 14px; font-weight: bold; ">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar Energy
 						</span>
 					</span>
@@ -663,7 +658,7 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+						<span style=" line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Photovoltaics
 						</span>
 					</span>
@@ -674,7 +669,7 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+						<span style=" line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar Cells
 						</span>
 					</span>
@@ -685,7 +680,7 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+						<span style=" line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar Panels/Solar Modules						
 						</span>
 					</span>
@@ -696,7 +691,7 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+						<span style=" line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Balance of Systems	
 						</span>
 					</span>
@@ -707,7 +702,7 @@
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
+						<span style=" line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Inverter	
 						</span>
 					</span>
@@ -728,22 +723,12 @@
 	
 </body>
 
-<script type="text/javascript">
-	
+<script type="text/javascript">	
 	// 无刷新改变url状态
 	function changeURL(id){
 		window.history.pushState({},0,'http://'+window.location.host+'/products/'+ id);		
 	}
 		
-
-	jQuery(function(){
-		jQuery('ul.sf-menu').superfish();
-	});
-	if(typeof(MenuMoveWithScroll)=="function"){
-		window.setTimeout(MenuMoveWithScroll,1);
-	}
-	
-	
 	$(document).ready(function(){
 		
 		if($!{sectionId} != 0) {
