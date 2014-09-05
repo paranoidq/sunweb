@@ -38,64 +38,27 @@
 		<div>
 		<div class="pageright" id="_about_1" style="display:block">
 			<div class="pagemain">
-				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;margin-left:15px">
+				<span style="line-height: 20px; font-size: 15px; color:#2c9fe1;font-weight:bold;margin-left:15px">
 					  Module Characteristics
 				</span>
 				<br /><br />
 				
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
-					<span style="line-height: 17px; font-size: 12px;color:#707070;">
-						  
-					</span>
 					<span style="line-height: 17px; font-size: 12px;">
-					   High module conversion efficiency up to 16.59%
+						<ul>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>High module conversion efficiency up to 16.59% </li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Positive Tolerance </li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>PID resistance </li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Certificated to withstand extreme conditions  </li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>10 year workmanship guarantee and 25 year power output guarantee  </li>
+							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/> Customized modules according to requirements  </li>
+						</ul>
 					</span>
-					<br />
-					
-					<span style="line-height: 17px; font-size: 12px;color:#707070;">
-						  
-					</span>
-					<span style="line-height: 17px; font-size: 12px;">
-					   Positive Tolerance
-					</span>
-					<br />
-					
-					<span style="line-height: 17px; font-size: 12px;color:#707070;">
-						  
-					</span>
-					<span style="line-height: 17px; font-size: 12px;">
-					   PID resistance
-					</span>
-					<br />
-					
-					<span style="line-height: 17px; font-size: 12px;color:#707070;">
-						  
-					</span>
-					<span style="line-height: 17px; font-size: 12px;">
-					   Certificated to withstand extreme conditions 
-					</span>
-					<br />
-					
-					<span style="line-height: 17px; font-size: 12px;color:#707070;">
-						  
-					</span>
-					<span style="line-height: 17px; font-size: 12px;">
-					  10 year workmanship guarantee and 25 year power output guarantee
-					</span>
-					<br />
-					
-					<span style="line-height: 17px; font-size: 12px;color:#707070;">
-						  
-					</span>
-					<span style="line-height: 17px; font-size: 12px;">
-					  Customized modules according to requirements
-					</span>
-					<br />
 				</div>
-				<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/product_01.jpg" border="0"/></div>
+				<div style="margin-left:20px;" ><img src="$!{viewUtil.getContextPath()}/static/images/product_01.jpg" border="0" /></div>
 				<br /><br />
 				
-				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold; margin-left:15px;">
 					 Monocrystalline Silicon Module
 				</span>
 				<br /><br />
@@ -159,7 +122,7 @@
 				</div>
 			</div>	
 		</div>
-				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold; margin-left:15px;">
 					Polycrystalline Silicon Module
 				</span>
 				<br /><br />
