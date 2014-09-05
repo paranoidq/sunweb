@@ -532,11 +532,7 @@
 								<td >
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/11.jpg" style="height:100px;weight:130px;"/>
 									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
-<<<<<<< HEAD
-										<div style="margin: 5px 0 10px 0;">Project: Loods Lobberich, Holland </div>
-=======
 										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Loods Lobberich, Holland </div>
->>>>>>> branch 'master' of git@github.com:paranoid-qian/sunweb.git
 										<div style="margin: 10px 0px;">Capacity: 37.30 KW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-230P</div>
 										<div style="margin: 10px 0 5px 0;">Completion: October 2012</div>
@@ -545,11 +541,7 @@
 								<td>
 									<img src="$!{viewUtil.getContextPath()}/static/images/project/12.jpg" style="height:100px;weight:130px;" />
 									<div style="display:inline-block; vertical-align:top; font-style:italic; padding-left:5px;">
-<<<<<<< HEAD
-										<div style="margin: 5px 0 10px 0;">Location: Kawazoe Power Farm, Japan</div>
-=======
 										<div style="margin: 5px 0 10px 0;color:#2c9fe1;">Kawazoe Power Farm, Japan</div>
->>>>>>> branch 'master' of git@github.com:paranoid-qian/sunweb.git
 										<div style="margin: 10px 0px;">Capacity: 1.2MW</div>
 										<div style="margin: 10px 0px;">Product type: ATP-300M</div>
 										<div style="margin: 10px 0 5px 0;">Completion: October 2012</div>
