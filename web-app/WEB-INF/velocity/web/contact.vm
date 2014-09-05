@@ -59,19 +59,24 @@
 						</span>
 					</p>
 				</div>
-				<div style="margin-left:16px;" class="content_splitter"></div>
+				<div style="margin-left:16px;" class="content_splitter"></div> 
 				<ul class="title" style="margin-top:20px;padding-right:20px;">Message</ul>
 				<div class="content">
 					<form action="javascript:void(0)">
-						<span>Your email:</span><input type="text" name="fromAddress" id="_from_address"style="color:#6e6e70; margin-left:30px; width:250px;"/>
-						<span class="email_warning_1 warning" style="display:none;">Please enter email address !</span>
-						<span class="email_warning_2 warning" style="display:none;">Please enter correct email address !</span>
+						<div>Your email:</div>
+						<div>
+							<input type="text" name="fromAddress" id="_from_address"style="color:#6e6e70; margin-top:10px; width:250px;"/>
+							<span class="email_warning_1 warning" style="display:none;">Please enter email address !</span>
+							<span class="email_warning_2 warning" style="display:none;">Please enter correct email address !</span>
+						</div>
 						<div style="margin-top:10px; line-height:30px; vertical-align:top;">
 							<span style="vertical-align:top;">Your message:</span>
-							<textarea id="_content" style="margin-left:5px;margin-top:10px;width:439px;height:152px;color:#6e6e70;" ></textarea>
-							<span style="vertical-align:top; display:none;" class="message_warning warning">Please enter message !</span>
+							<div style="margin-left:0px;margin-top:5px;">
+								<textarea id="_content" style="width:439px;height:152px;color:#6e6e70;" ></textarea>
+								<span style="vertical-align:top; display:none;" class="message_warning warning">Please enter message !</span>
+							</div>
+							<button id="_send_btn" style="float: left; border: 0px; color: rgb(255, 255, 255); margin-top: 5px; font-weight: bold; font-size: 13px; cursor: pointer; background-color: rgb(44, 159, 225);"><span>提交<span></span></span></button>
 						</div>
-						<button id="_send_btn" style="float: left; border: 0px; color: rgb(255, 255, 255); margin-left: 100px; margin-top: 5px; font-weight: bold; font-size: 13px; cursor: pointer; background-color: rgb(44, 159, 225);"><span>提交<span></span></span></button>
 						<span id="_deliver_info" style="margin-left:92px;color:#3aad07; display:none;">... Delivering ...</span>
 						<span id="_success_info" style="margin-left:92px;color:#2c9fe1; display:none;">Deliver Success. Thanks for your message !</span>
 						<span id="_fail_info" style="margin-left:92px;color:red; display:none;">Deliver Failed. Please try again !</span>
