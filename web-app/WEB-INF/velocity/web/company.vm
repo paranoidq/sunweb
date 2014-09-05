@@ -237,12 +237,12 @@
 </body>
 
 <script type="text/javascript">
-	jQuery(function(){
+	/*jQuery(function(){
 		jQuery('ul.sf-menu').superfish();
 	});
 	if(typeof(MenuMoveWithScroll)=="function"){
 		window.setTimeout(MenuMoveWithScroll,1);
-	}
+	}*/
 	
 	
 	$(document).ready(function(){

@@ -76,7 +76,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 .nav_color_2{background:#b32c4a}
 .nav_color_3{background:#01663a}
 /*.nav_color_theme{background:#2c9fe1}*/
-.nav_color_theme{background:url("../images/navi_background.png")}
+.nav_color_theme{background:url("../images/navi_background.png"); background-repeat:no-repeat;}
 .nav_font_color_hover {color:#2c9fe1}
 
 /***index page style begin***/
@@ -95,7 +95,7 @@ a.nav_a_3:link,a.nav_a_3:hover,a.nav_a_3:visited{color:#00A550;}
 table.index_product_data{color:#fff;}
 table.index_product_data td.pname{width:85px;vertical-align:top;font-size:14px;}
 table.index_product_data td.pdesc{padding-bottom:20px;}
-.index_case{float:left;margin-left:75px;text-align:left;_display:inline;}
+.index_case{float:right;margin-right:60px;text-align:left;_display:inline;}
 .index_caseimg{float:right;}
 .index_more{margin-left:70px;color:#000;}
 
@@ -410,6 +410,6 @@ ul.bosubmenu_child li.open{color:#006438;background-image:none;}
 .email_table .but{border:0px;font-size:18px;background:#fff}
 
 
-.content_splitter{background:url("../images/splitter.png"); height:5px;}
+.content_splitter{background:url("../images/splitter.png"); height:5px; background-repeat:no-repeat;}
 
 
