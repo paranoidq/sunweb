@@ -75,7 +75,7 @@
 					</a>
 				</li>
 			</div>
-			<a href="$!{viewUtil.getContextPath()}/products/5"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.jpg"></a>
+			<a href="$!{viewUtil.getContextPath()}/products/5"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.png"></a>
 		</div>
 		<!-- Content Cases End -->
 		<div class="clear"></div>
