@@ -120,7 +120,7 @@ table.index_product_data td.pdesc{padding-bottom:20px;}
 ul.submenu{background:#2c9fe1;width:176px;border-left:1px #FFF2DF solid;border-right:1px #FFF2DF solid;border-bottom:0px #fff solid;}
 ul.submenu li{padding:7px 0 6px 18px;border-bottom:1px #fff dotted;}
 ul.submenu li.close{background:url("../images/icon/arrow_close.jpg") no-repeat;background-position:8px 12px;color:#6D6E71}
-ul.s"E:/±œ…Ë/EPWebProject◊ ¡œ/EPWebProject_9/EPWebProject.sln"ubmenu li.open{background:url("../images/icon/arrow_open.jpg") no-repeat;background-position:8px 11px;color:#fff}
+ul.submenu li.open{background:url("../images/icon/arrow_open.jpg") no-repeat;background-position:8px 11px;color:#fff}
 ul.submenu li.open a{color:#fff}
 ul.submenu li a {color:#fff}
 ul.submenu li.last{border-bottom:none;}
