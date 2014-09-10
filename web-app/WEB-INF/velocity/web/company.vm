@@ -24,10 +24,10 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="close"><a href="javascript:void(0)">About</a></li>
-						<li class="open"><a href="javascript:void(0)" >Social Responsibility</a></li>
-						<li class="open"><a href="javascript:void(0)">Customer Testimonials</a></li>
-						<li class="open last"><a href="javascript:void(0)" >Career</a></li>
+						<li class="close" id="menu_1"><a href="javascript:void(0)">Overview</a></li>
+						<li class="open" id="menu_2"><a href="javascript:void(0)" >Social Responsibility</a></li>
+						<li class="open" id="menu_3"><a href="javascript:void(0)">Customer Testimonials</a></li>
+						<li class="open last " id="menu_4"><a href="javascript:void(0)" >Career</a></li>
 					</ul>
 				</div>
 			</div>
@@ -57,6 +57,10 @@
 					<span style="line-height: 17px; font-size: 12px;">
 						AENTROPI concerned about the satisfaction of their customers, which is why we are always standing by to answer your questions. AENTROPI is staffed with knowledgeable experts who can help you select a solar panel or just explain the solar basics. If you have any questions, please do not hesitate to contact us.
 					</span>
+					<br /><br />
+					<div class="subpage_banner">
+						<img src="$!{viewUtil.getContextPath()}/static/images/about01.png" border="0"/>
+					</div>
 				</div>
 			</div>
 			
@@ -90,7 +94,7 @@
 					<br /><br />
 					
 					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/about02.jpg" border="0"/>
+						<img src="$!{viewUtil.getContextPath()}/static/images/about02.png" border="0"/>
 					</div>
 					
 					<br />
@@ -162,66 +166,63 @@
 				<ul class="title">Join Us</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
 					<span style="line-height: 17px; font-size: 12px;">
-						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.<br/>
+						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all. 
 						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
 					</span>
 					
 					<br/><br/>
 					
 					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
+						<img src="$!{viewUtil.getContextPath()}/static/images/about04.png" border="0"/>
 					</div>
-					<br/>
-					<span style="line-height: 17px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
-							Positions:
-						</span>
-					</span>
-					<br />
+				</div>
+				<ul class="title" style="margin:0px 0 1px 15px; font-size:25px;">Positions</ul>
+				<div class="content"  style="text-align:Justify; text-justify:inter-ideograph;">
+					<div style="margin-bottom:10px;" class="content_splitter"></div>
 					<span style="line-height: 17px; font-size: 12px;">
-						<span style="line-height: 30px; font-size: 12px; font-weight: bold;">
+						<span style="line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Asia Pacific Region
 						</span>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Title: Senior Quality Control Manager
+						<i>Title:&nbsp;&nbsp;Senior Quality Control Manager</i>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing, China
+						<i>Location:&nbsp;&nbsp;Nanjing, China</i>
 					</span>
 					
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px;">
-						Title: Project Engineer
+						<i>Title:&nbsp;&nbsp;Project Engineer</i>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing
+						<i>Location:&nbsp;&nbsp;Nanjing</i>
 					</span>
 					
 					<br /><br />
 					
 					<span style="line-height: 17px;">
-						<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/><span style="; line-height: 30px; font-size: 12px; font-weight: bold;">
+						<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/><span style="; line-height: 30px; font-size: 14px; font-weight: bold;">
 							Europe
 						</span>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Title: Customer Service Engineer
+						<i>Title: &nbsp;&nbsp;Customer Service Engineer</i>
 					</span>
 					<br />
 					<span style="line-height: 17px; font-size: 12px;">
-						Location: London, United Kingdom
+						 <i>Location:&nbsp;&nbsp;London, United Kingdom</i>
 					</span>
 					
 					<br /><br />
 					
 					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
-					Apply here: HR@aentropi-power.com
+					Apply here: <u>HR@aentropi-power.com</u>
 					</span>
 					<br />
 				</div>
@@ -244,16 +245,32 @@
 		window.setTimeout(MenuMoveWithScroll,1);
 	}*/
 	
+	// 无刷新改变url状态
+	function changeURL(id){
+		window.history.pushState({},0,'http://'+window.location.host+'/company/'+ id);		
+	}
 	
 	$(document).ready(function(){
+		if($!{sectionId} != 0) {
+			var sectionId = $!{sectionId};
+			var _div_id = "#_about_" + sectionId;
+			$(_div_id).siblings().css("display", "none");
+			$(_div_id).css("display", "block");
+			$("#menu_"+sectionId).siblings().removeClass();
+			$("#menu_"+sectionId).addClass("close");
+		}
+	
+	
 		$("li").click(function(){
 			$(".submenu li").removeClass();
 			$(this).addClass("close");
 		
-			var _div_id = "#_about_" + (parseInt($(this).index()) + 1);
+			var _id = parseInt($(this).index());
+			var _div_id = "#_about_" + (_id + 1);
 			$(_div_id).siblings().css("display", "none");
 			$(_div_id).fadeIn(500);
 			//alert(_div_id);
+			changeURL(_id+1);
 		});
 	});
 	

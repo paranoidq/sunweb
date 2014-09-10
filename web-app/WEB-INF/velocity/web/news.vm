@@ -24,7 +24,10 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
-						<li class="close last"><a href="$!{viewUtil.getContextPath()}/news/">News</a></li>
+						<li class=""><a href="$!{viewUtil.getContextPath()}/company/">About Us</a></li>
+						<li class=""><a href="$!{viewUtil.getContextPath()}/products/">Products & Services</a></li>
+						<li class="close"><a href="$!{viewUtil.getContextPath()}/news/">News</a></li>
+						<li class="last"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>

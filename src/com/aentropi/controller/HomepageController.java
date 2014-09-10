@@ -23,8 +23,15 @@ public class HomepageController {
 		return "web/homepage";
 	}
 	
+	
 	@RequestMapping("/company")
 	public String displayCompany(Model model, HttpServletResponse response) {
+		model.addAttribute("sectionId", 1);
+		return "web/company";
+	}
+	@RequestMapping("/company/{sectionId}")
+	public String displayCompany(Model model, HttpServletResponse response, @PathVariable("sectionId") int sectionId) {
+		model.addAttribute("sectionId", sectionId);
 		return "web/company";
 	}
 	
@@ -35,7 +42,7 @@ public class HomepageController {
 	
 	@RequestMapping("/products")
 	public String displayProducts(Model model, HttpServletResponse response) {
-		model.addAttribute("sectionId", 0);
+		model.addAttribute("sectionId", 1);
 		return "web/products";
 	}
 	

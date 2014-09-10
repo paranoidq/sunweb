@@ -40,7 +40,7 @@ a.no_underline{text-decoration:none;}
 .nav .angle{float:left;width:16px;}
 .nav .angle .angle_top{background:url("../images/nav_angle.gif") no-repeat;width:16px;height:16px;}
 .nav .angle .angle_bottom{background-color:#17124c;height:40px;}
-.nav .nav_content{width:960px;float:left;background-color:#fffffc;height:56px;}
+.nav .nav_content{width:960px;float:left;height:56px;}
 .nav .logo{float:left;padding-left:4px;}
 .nav .menu{float:right;padding-right:11px;}
 .nav .home{float:right; margin:24px 12px 0px 0px}
@@ -109,9 +109,9 @@ table.index_product_data td.pdesc{padding-bottom:20px;}
 .currpath_color_3{background:#01663a;}
 .currpath a{color:#fff;}
 .currpath a:link,.currpath a:hover,.currpath a:visited{color:#fff;}
-.pagebody{border:0px #D1D3D4 solid;background:#fff;margin-top:px;padding:10px;width:940px;}
+.pagebody{border:0px #D1D3D4 solid;;margin-top:px;padding:10px;width:940px;}
 .pageleft{float:left;width:178px;text-align:left;}
-.pageright{float:right;width:750px;min-height:735px;}
+.pageright{float:right;width:750px;min-height:735px; border-left:100px; border-color:#F0EEEE;}
 .pagemain{text-align:left;padding-bottom:20px;}
 
 .pageleft_inner{position:relative}

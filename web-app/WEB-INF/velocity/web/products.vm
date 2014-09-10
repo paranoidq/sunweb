@@ -203,7 +203,7 @@
 					<br/>
 					<br/>
 					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/system_solution.jpg" border="0"/>
+						<img src="$!{viewUtil.getContextPath()}/static/images/system_solution.png" border="0"/>
 					</div>
 				</div>
 				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Early Research</ul>

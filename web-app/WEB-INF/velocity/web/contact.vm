@@ -24,6 +24,9 @@
 			<div id="pageleft_inner" class="pageleft_inner">
 				<div id="slide" class="slide">
 					<ul class="submenu">
+						<li class=""><a href="$!{viewUtil.getContextPath()}/company/">About Us</a></li>
+						<li class=""><a href="$!{viewUtil.getContextPath()}/products/">Products & Services</a></li>
+						<li class=""><a href="$!{viewUtil.getContextPath()}/news/">News</a></li>
 						<li class="close last"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
 					</ul>
 				</div>
@@ -35,27 +38,27 @@
 				<div class="content">
 					<p>
 						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							<span style="color: #6e6e70; line-height: 30px; font-size: 14px; font-weight: bold;">
 								Products & Services
 							</span>
 						</span>
 						<br />
 						<span style="line-height: 17px; font-size: 12px;">
 							8888888888<br/>
-							exebry@gmail.com
+							info@aentropi-power.com
 						</span>
 						<br />
 					</p>
 					<p>
 						<span style="line-height: 17px; font-size: 12px;">
-							<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
+							<span style="color: #6e6e70; line-height: 30px; font-size: 14px; font-weight: bold;">
 								Invest and Cooperation
 							</span>
 						</span>
 						<br />
 						<span style="line-height: 17px; font-size: 12px;">
 							999999999<br/>
-							exebry@gmail.com
+							info@aentropi-power.com
 						</span>
 					</p>
 				</div>
