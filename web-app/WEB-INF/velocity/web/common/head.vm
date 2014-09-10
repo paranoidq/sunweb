@@ -53,4 +53,9 @@
 
 </script>
 
+<style>
+	html { overflow: scroll; overflow-y: scroll; overflow:-moz-scrollbars-vertical; }
+	
+</style>
+
 </head>

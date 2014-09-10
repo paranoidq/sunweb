@@ -197,7 +197,7 @@
 		
 		
 <!--==============================about 2=======================================-->		
-		<div class="pageright" id="_about_2" style="display:none">
+		<div class="pageright" id="_about_2" style="display:none;">
 			<div class="pagemain">
 				<ul class="title">Services</ul>
 				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
@@ -240,16 +240,35 @@
 							</ul>
 					</div>
 					
+					<div style="font-size:15px; margin:15px 10px 10px 0px; height:15px; font-weight: bold; color:#2c9fe1;">Engineering Design</div>
+					<div>
+						<span style="line-height: 17px; font-size: 12px;">
+							<ul>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar module selection</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>The selection of electrical equipment</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Monitoring and communication system design</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>BIPV designDesign of capital construction</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Design of capital construction</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Design of power grid access system</li>
+							</ul>
+						</span>
+					</div>
 					
+					<div style="font-size:15px; margin:15px 10px 10px 0px; height:15px; font-weight: bold; color:#2c9fe1;">Engineering Management</div>
+					<div>
+						<span style="line-height: 17px; font-size: 12px;">
+							<ul>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Supervising the project according to the relevant standards and requirements of drawings</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Management of safety, quality and schedule on the construction site</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Making equipment and materials plans</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Procurement of the equipment and materials according to design and customer requirements</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Preparation of various material of report for approval and construction</li>
+							</ul>
+							<br/>
+						</span>
+					</div>
 				</div>
 			</div>
-			<table class="featuredprojects_bottom">
-				<tbody>
-				<tr>
-					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
-				</tr>
-				</tbody>
-			</table>
 		</div>
 		
 		
