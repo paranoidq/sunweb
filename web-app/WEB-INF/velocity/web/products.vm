@@ -57,132 +57,142 @@
 					 Monocrystalline Silicon Module 
 				</span>
 				<br /><br />
-		<table>
-			<td  class="content" >
-				<div class="subpage_banner" style="display:inline-block;">
-					<img src="$!{viewUtil.getContextPath()}/static/images/product_02.jpg" border="0"/>
-				</div>	
-				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
-						Mono ATP220-270 Watt
-					</span>
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px; ">
-						Cell(mm): Mono 156x156 
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px; ">
-						No.of cells: 60 (6×10)
-					</span>
-					<br /><br /><br />
-					
-					<div class="subpage_banner" style="display:inline-block; color:#989898">
-						<span style="line-height: 17px; font-size: 12px; ">
-							Datasheet
-						</span>
-						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
-							Warranty
-						</span>
-					</div>
-				</div>
-			</td>
-			<td  class="content" >
-				<div class="subpage_banner" style="display:inline-block;">
-					<img src="$!{viewUtil.getContextPath()}/static/images/product_04.jpg" border="0"/>
-				</div>	
-				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
-						Poly ATP230-275 Watt 
-					</span>
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px; ">
-						Cell(mm): Poly 156x156 
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px; ">
-						No.of cells: 60 (6×10)
-					</span>
-					<br /><br /><br />
-					
-					<div class="subpage_banner" style="display:inline-block; color:#989898">
-						<span style="line-height: 17px; font-size: 12px; ">
-							Datasheet
-						</span>
-						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
-							Warranty
-						</span>
-					</div>
-				</div>
-			</td>
-		</table>
-		<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold; margin-left:15px;">
+				<table>
+					<tbody>
+					<tr>
+						<td>
+							<div class="subpage_banner" style="display:inline-block;">
+								<img src="$!{viewUtil.getContextPath()}/static/images/product_02.jpg" border="0"/>
+							</div>	
+							<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+								<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+									Mono ATP220-270 Watt
+								</span>
+								<br /><br />
+								
+								<span style="line-height: 17px; font-size: 12px; ">
+									Cell(mm): Mono 156x156 
+								</span>
+								<br />
+								<span style="line-height: 17px; font-size: 12px; ">
+									No.of cells: 60 (6×10)
+								</span>
+								<br /><br /><br />
+								
+								<div class="subpage_banner" style="display:inline-block; color:#989898">
+									<span style="line-height: 17px; font-size: 12px; ">
+										Datasheet
+									</span>
+									<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+										Warranty
+									</span>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="subpage_banner" style="display:inline-block;">
+								<img src="$!{viewUtil.getContextPath()}/static/images/product_04.jpg" border="0"/>
+							</div>	
+							<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+								<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+									Poly ATP230-275 Watt 
+								</span>
+								<br /><br />
+								
+								<span style="line-height: 17px; font-size: 12px; ">
+									Cell(mm): Poly 156x156 
+								</span>
+								<br />
+								<span style="line-height: 17px; font-size: 12px; ">
+									No.of cells: 60 (6×10)
+								</span>
+								<br /><br /><br />
+								
+								<div class="subpage_banner" style="display:inline-block; color:#989898">
+									<span style="line-height: 17px; font-size: 12px; ">
+										Datasheet
+									</span>
+									<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+										Warranty
+									</span>
+								</div>
+							</div>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+				<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold; margin-left:15px;">
 					Polycrystalline Silicon Module
 				</span>
+				
 				<br /><br />
-		<table>	
-			<td  class="content" >
-				<div class="subpage_banner" style="display:inline-block;">
-					<img src="$!{viewUtil.getContextPath()}/static/images/product_03.jpg" border="0"/>
-				</div>	
-				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
-						Mono ATP255-320 Watt
-					</span>
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px; ">
-						Cell(mm): Mono 156x156 
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px; ">
-						No.of cells: 72 (6×12)
-					</span>
-					<br /><br /><br />
-					
-					<div class="subpage_banner" style="display:inline-block; color:#989898">
-						<span style="line-height: 17px; font-size: 12px; ">
-							Datasheet
-						</span>
-						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
-							Warranty
-						</span>
-					</div>
-				</div>
-			</td>				
-			<td  class="content"  >
-				<div class="subpage_banner" style="display:inline-block;">
-					<img src="$!{viewUtil.getContextPath()}/static/images/product_05.jpg" border="0"/>
-				</div>	
-				<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
-						Poly ATP275-335 Watt
-					</span>
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px; ">
-						Cell(mm): Mono 156x156 
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px; ">
-						No.of cells: 72 (6×12)
-					</span>
-					<br /><br /><br />
-					
-					<div class="subpage_banner" style="display:inline-block; color:#989898">
-						<span style="line-height: 17px; font-size: 12px; ">
-							Datasheet
-						</span>
-						<span style="line-height: 17px; font-size: 12px; margin-left:15px">
-							Warranty
-						</span>
-					</div>
-				</div>
-			</td>	
-		</table>
-	</div>		
-</div>
+				
+				<table>
+					<tbody>
+					<tr>
+						<td>
+							<div class="subpage_banner" style="display:inline-block;">
+								<img src="$!{viewUtil.getContextPath()}/static/images/product_03.jpg" border="0"/>
+							</div>	
+							<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+								<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+									Mono ATP255-320 Watt
+								</span>
+								<br /><br />
+								
+								<span style="line-height: 17px; font-size: 12px; ">
+									Cell(mm): Mono 156x156 
+								</span>
+								<br />
+								<span style="line-height: 17px; font-size: 12px; ">
+									No.of cells: 72 (6×12)
+								</span>
+								<br /><br /><br />
+								
+								<div class="subpage_banner" style="display:inline-block; color:#989898">
+									<span style="line-height: 17px; font-size: 12px; ">
+										Datasheet
+									</span>
+									<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+										Warranty
+									</span>
+								</div>
+							</div>
+						</td>				
+						<td>
+							<div class="subpage_banner" style="display:inline-block;">
+								<img src="$!{viewUtil.getContextPath()}/static/images/product_05.jpg" border="0"/>
+							</div>	
+							<div style="display:inline-block; vertical-align:top; margin-top:20px;">		
+								<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;font-weight:bold;">
+									Poly ATP275-335 Watt
+								</span>
+								<br /><br />
+								
+								<span style="line-height: 17px; font-size: 12px; ">
+									Cell(mm): Mono 156x156 
+								</span>
+								<br />
+								<span style="line-height: 17px; font-size: 12px; ">
+									No.of cells: 72 (6×12)
+								</span>
+								<br /><br /><br />
+								
+								<div class="subpage_banner" style="display:inline-block; color:#989898">
+									<span style="line-height: 17px; font-size: 12px; ">
+										Datasheet
+									</span>
+									<span style="line-height: 17px; font-size: 12px; margin-left:15px">
+										Warranty
+									</span>
+								</div>
+							</div>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>		
+		</div>
 		
 		
 		
@@ -202,61 +212,35 @@
 					<div class="subpage_banner">
 						<img src="$!{viewUtil.getContextPath()}/static/images/system_solution.png" border="0"/>
 					</div>
-				</div>
-				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Early Research</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
-					<span style="line-height: 17px; font-size: 12px;">
-						<ul>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Project Location</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Installation area</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Transformer capacity / the ability to send power</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Capital and the rough size</li>
-						</ul>
-					</span>
-					<br/>
-				</div>
-				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Project Proposals</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
-					<span style="line-height: 17px; font-size: 12px;">
-						<ul>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Project background and necessity</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Situation at home and abroad</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>System configuration</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Method of being connected to grid</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Installation and commissioning solution</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Budgetary estimates</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Measurement of capacity</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Financial analysis</li>
-						</ul>
-					</span>
-					<br/>
-				</div>
-				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Engineering Design</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
-					<span style="line-height: 17px; font-size: 12px;">
-						<ul>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Solar module selection</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>The selection of electrical equipment</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Monitoring and communication system design</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>BIPV designDesign of capital construction</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Design of capital construction</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Design of power grid access system</li>
-						</ul>
-					</span>
-					<br/>
-				</div>
-				<ul class="title" style="font-size:15px; margin:0px 10px 10px 15px; height:15px; font-weight: bold;">Engineering Management</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; padding:0 20px 0 16px;">
-					<span style="line-height: 17px; font-size: 12px;">
-						<ul>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Supervising the project according to the relevant standards and requirements of drawings</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Management of safety, quality and schedule on the construction site</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Making equipment and materials plans</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Procurement of the equipment and materials according to design and customer requirements</li>
-							<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Preparation of various material of report for approval and construction</li>
-						</ul>
-						<br/>
-					</span>
+					
+					
+					<div style="font-size:15px; margin:10px 10px 10px 0px; height:15px; font-weight: bold; color:#2c9fe1;">Early Research</div>
+					<div>
+						<span style="line-height: 17px; font-size: 12px;">
+							<ul>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Project Location</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Installation area</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Transformer capacity / the ability to send power</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Capital and the rough size</li>
+							</ul>
+						</span>
+					</div>
+					
+					<div style="font-size:15px; margin:15px 10px 10px 0px; height:15px; font-weight: bold; color:#2c9fe1;">Project Proposals</div>
+					<div>
+							<ul>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Project background and necessity</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Situation at home and abroad</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>System configuration</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Method of being connected to grid</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Installation and commissioning solution</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Budgetary estimates</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Measurement of capacity</li>
+								<li><img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Financial analysis</li>
+							</ul>
+					</div>
+					
+					
 				</div>
 			</div>
 			<table class="featuredprojects_bottom">
@@ -264,7 +248,7 @@
 				<tr>
 					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
 				</tr>
-			</tbody>
+				</tbody>
 			</table>
 		</div>
 		

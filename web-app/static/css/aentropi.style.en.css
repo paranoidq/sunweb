@@ -133,7 +133,7 @@ ul.submenu_child li.open a{color:#2c9fe1;}
 .subpage_banner{}
 
 
-.footer{background:#fff;height:30px;margin:16px auto;clear:both;}
+.footer{background:#fff;height:30px;margin:0px auto;clear:both;}
 .footer .copyright{color:#989898;float:left;padding:0 0 0 12px;}
 .footer .copyright a{color:#989898;}
 .footer .link{float:right;padding:8px 12px 0 0;color:#15489c;}

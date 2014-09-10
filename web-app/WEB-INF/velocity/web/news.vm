@@ -33,7 +33,6 @@
 			</div>
 		</div>
 		<div class="pageright">
-			<div class="subpage_banner"><img src="$!{viewUtil.getContextPath()}/static/images/company_logo.jpg" border="0"/></div>
 			<div class="pagemain">
 				<ul class="title">Overview</ul>
 				<div class="content">
