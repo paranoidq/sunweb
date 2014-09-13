@@ -44,8 +44,8 @@
 						</span>
 						<br />
 						<span style="line-height: 17px; font-size: 12px;">
-							8888888888<br/>
-							info@aentropi-power.com
+							Technical Consultant :<br/>
+							techsupport@aentropi-power.com
 						</span>
 						<br />
 					</p>
@@ -57,8 +57,22 @@
 						</span>
 						<br />
 						<span style="line-height: 17px; font-size: 12px;">
-							999999999<br/>
-							info@aentropi-power.com
+							Sales Team :<br/>
+							sales@aentropi-power.com
+						</span>
+					</p>
+					<p>
+						<span style="line-height: 17px; font-size: 12px;">
+							<span style="color: #6e6e70; line-height: 30px; font-size: 14px; font-weight: bold;">
+								Address
+							</span>
+						</span>
+						<br />
+						<span style="line-height: 17px; font-size: 12px;">
+							Asia Pacific Office<br/>
+							Room 507, building 6, No.4,<br />
+							Qinghuai Road, Jiangning district,<br />
+							210000, Nanjing, China
 						</span>
 					</p>
 				</div>
@@ -78,7 +92,7 @@
 								<textarea id="_content" style="width:439px;height:152px;color:#6e6e70;" ></textarea>
 								<span style="vertical-align:top; display:none;" class="message_warning warning">Please enter message !</span>
 							</div>
-							<button id="_send_btn" style="float: left; border: 0px; color: rgb(255, 255, 255); margin-top: 5px; font-weight: bold; font-size: 13px; cursor: pointer; background-color: rgb(44, 159, 225);"><span>提交<span></span></span></button>
+							<button id="_send_btn" style="float: left; border: 0px; color: rgb(255, 255, 255); margin-top: 5px; font-weight: bold; font-size: 13px; cursor: pointer; background-color: rgb(44, 159, 225);"><span>submit<span></span></span></button>
 						</div>
 						<span id="_deliver_info" style="margin-left:92px;color:#3aad07; display:none;">... Delivering ...</span>
 						<span id="_success_info" style="margin-left:92px;color:#2c9fe1; display:none;">Deliver Success. Thanks for your message !</span>

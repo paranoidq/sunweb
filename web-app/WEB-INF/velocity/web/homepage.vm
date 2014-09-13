@@ -5,6 +5,7 @@
 
 
 <body>
+
 	#parse("web/common/header.vm")
 	<div style="width:960px;height:291px;margin:0 auto;position:relative;">
 	    #parse("web/common/navi.vm")
