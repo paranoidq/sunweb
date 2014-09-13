@@ -41,7 +41,7 @@ a.no_underline{text-decoration:none;}
 .nav .angle .angle_top{background:url("../images/nav_angle.gif") no-repeat;width:16px;height:16px;}
 .nav .angle .angle_bottom{background-color:#17124c;height:40px;}
 .nav .nav_content{width:960px;float:left;height:56px;}
-.nav .logo{float:left;padding-left:4px;}
+.nav .logo{float:left;padding-left:1px;}
 .nav .menu{float:right;padding-right:11px;}
 .nav .home{float:right; margin:24px 12px 0px 0px}
 .nav .home img{ cursor:pointer;}

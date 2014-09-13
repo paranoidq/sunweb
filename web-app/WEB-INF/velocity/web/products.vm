@@ -25,11 +25,11 @@
 				<div id="slide" class="slide">
 					<ul class="submenu" id="side_menu">
 						<li class="close" id="menu_1"><a href="javascript:void(0)">Solar Module</a></li>
-						<li class="" id="menu_2"><a href="javascript:void(0)" >System Solution</a></li>
-						<li class="" id="menu_3"><a href="javascript:void(0)">Off-grid</a></li>
-						<li class="" id="menu_4"><a href="javascript:void(0)">Download Center</a></li>
-						<li class="" id="menu_5"><a href="javascript:void(0)">Project Reference</a></li>
-						<li class="last" id="menu_6"><a href="javascript:void(0)">Solar Basics</a></li>
+						<li class="open" id="menu_2"><a href="javascript:void(0)" >System Solution</a></li>
+						<li class="open" id="menu_3"><a href="javascript:void(0)">Off-grid</a></li>
+						<li class="open" id="menu_4"><a href="javascript:void(0)">Download Center</a></li>
+						<li class="open" id="menu_5"><a href="javascript:void(0)">Project Reference</a></li>
+						<li class="open last id="menu_6""><a href="javascript:void(0)">Solar Basics</a></li>
 					</ul>
 				</div>
 			</div>
@@ -277,44 +277,11 @@
 			
 			<div class="pagemain">
 				<ul class="title">Off-grid</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph; ">
-					<span style="line-height: 17px; font-size: 12px;">
-						“As one of their distributors, we have installed over 800 kilowatts of AENTROPI solar panels in South American region. We are extremely pleased with the quality of their service and products. Packaging, performance, and appearance of their products are unsurpassed by any of our other vendors.”
-					</span>
-					<br />
-					<div>
-						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
-							- Robert, Brazil
-						</span>
-					</div>
-					
-					<br /><br /><br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						“AENTROPI team is very helpful and supportive. I once asked AENTROPI to help me for my own roof top solution, and they responded me the very next day with the complete design. At that time I have little knowledge about photovoltaic, I gained a lot during the talk with AENTROPI engineer. Now, cooperated with AENTROPI team, I am working as an EPC to develop Japanese solar projects.” 
-						
-					</span>
-					<br />
-					<div>
-						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
-							- S. Nakamura, Japan
-						</span>
-					</div>
-					<br /><br /><br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						“AENTROPI is professional in every aspect. Working with them is a fantastic experience. They provide plenty of complete solutions to choose from for different cases, and the price of their products is accessible.” 
-						
-					</span>
-					<br />
-					<div>
-						<span style="line-height: 17px; font-size: 12px; color:#2c9fe1; float:right;">
-							– Louis, UK
-						</span>
-					</div>
-				</div>
+				<span style="line-height: 17px; font-size: 15px; margin-left:15px;">
+						Sorry,this page is under construction...
+				</span>
+				<br />
 			</div>
-			
 			<div class="clear"></div>
 		</div>
 		
@@ -323,75 +290,11 @@
 		<div class="pageright" id="_about_4" style="display:none">
 			<div class="pagemain">
 				<ul class="title">Download Center</ul>
-				<div class="content" style="text-align:Justify; text-justify:inter-ideograph;">
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1;">
-						We are proud of our dedicated employees and team culture. We work as a global family to deliver affordable solar for all.
-						AENTROPI appreciates innovation, rewards dedication, and encourages continuous learning. Join us today.
-					</span>
-					
-					<br /><br />
-					
-					<div class="subpage_banner">
-						<img src="$!{viewUtil.getContextPath()}/static/images/about04.jpg" border="0"/>
-					</div>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color:#2c9fe1; line-height: 30px; font-size: 14px; font-weight: bold;">
-							Positions:
-						</span>
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							Asia Pacific Region
-						</span>
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Senior Quality Control Manager
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing, China
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Project Engineer
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: Nanjing
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px;">
-						<span style="color: rgb(38, 38, 38); line-height: 30px; font-size: 14px; font-weight: bold;">
-							Europe
-						</span>
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Title: Customer Service Engineer
-					</span>
-					<br />
-					<span style="line-height: 17px; font-size: 12px;">
-						Location: London, United Kingdom
-					</span>
-					
-					<br /><br />
-					
-					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
-					Apply here: HR@aentropi-power.com
-					</span>
-					<br />
-				</div>
+				<span style="line-height: 17px; font-size: 15px; margin-left:15px;">
+					Sorry,this page is under construction...
+				</span>
+				<br />
 			</div>
-			
 			<div class="clear"></div>
 		</div>
 		

@@ -10,8 +10,8 @@ public class Constant {
 //	public static final String[] PARAMETER_KEY_SOCIALS = { "sina", "txweibo",
 //			"renren", "douban", "qzone" };
 
-	public static final String mailAddress = "paranoid.qian@gmail.com";
-	public static final String mailAccount = "paranoid.qian@gmail.com";
+	public static final String mailAddress = "andrea.tang@aentropi-power.com";
+	public static final String mailAccount = "andrea.tang@aentropi-power.com";
 	public static final String mailPassword = "88863650qw!@#";
 	public static final String mailServer = "smtp.gmail.com";
 
