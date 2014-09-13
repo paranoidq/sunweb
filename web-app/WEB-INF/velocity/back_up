@@ -1,0 +1,29 @@
+<script language="JavaScript">
+	var data = [{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_04_en.jpg",href:"#",target:""},
+	            {title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_05_en.jpg",href:"#",target:""},
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg",href:"#",target:""},
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_07_en.jpg",href:"#",target:""}];
+				
+	$('#index_banner').d_imagechange({
+		data:data,
+		playTime:5000,
+		animateTime:1000,
+		desc:false,
+		title:false,
+		btn:false,
+		bg:false,
+		width:960,
+		height:350,
+		animateStyle:'o'//默认值'o',可以不写
+	});
+
+	if(typeof(MenuMoveWithScroll)=="function"){
+		window.setTimeout(MenuMoveWithScroll,1);
+	}
+
+</script>
+
+
+	$(document).ready(function(){
+	        $("#scrollDiv").Scroll({line:1,speed:500,timer:5000,up:"btn1",down:"btn2"});
+	});
