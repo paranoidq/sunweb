@@ -25,11 +25,11 @@
 				<div id="slide" class="slide">
 					<ul class="submenu" id="side_menu">
 						<li class="close" id="menu_1"><a href="javascript:void(0)">Solar Module</a></li>
-						<li class="open" id="menu_2"><a href="javascript:void(0)" >System Solution</a></li>
-						<li class="open" id="menu_3"><a href="javascript:void(0)">Off-grid</a></li>
-						<li class="open" id="menu_4"><a href="javascript:void(0)">Download Center</a></li>
-						<li class="open" id="menu_5"><a href="javascript:void(0)">Project Reference</a></li>
-						<li class="open last id="menu_6""><a href="javascript:void(0)">Solar Basics</a></li>
+						<li class="" id="menu_2"><a href="javascript:void(0)" >System Solution</a></li>
+						<li class="" id="menu_3"><a href="javascript:void(0)">Off-grid</a></li>
+						<li class="" id="menu_4"><a href="javascript:void(0)">Download Center</a></li>
+						<li class="" id="menu_5"><a href="javascript:void(0)">Project Reference</a></li>
+						<li class="last" id="menu_6"><a href="javascript:void(0)">Solar Basics</a></li>
 					</ul>
 				</div>
 			</div>

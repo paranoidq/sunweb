@@ -1,7 +1,7 @@
 <div id="nav" class="nav" style="position:absolute;top:0;left:0;z-index:99;">
 	<div class="nav_content">
 		<div class="logo">
-		<a href="$!{viewUtil.getContextPath()}/"><img src= "/static/images/logo.jpg"></a>
+		<a href="$!{viewUtil.getContextPath()}/"><img src= "$!{viewUtil.getContextPath()}/static/images/logo.jpg"></a>
 		</div>
 		
 		<div class="menu">
