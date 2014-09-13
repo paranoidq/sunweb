@@ -3,6 +3,7 @@
 	<div class="copyright">Copyright © 2014 &nbsp;AENTROPI Ltd. &nbsp;All rights reserved. </div>
 	<!--<div class="head_tools">
 		<form action="/webroot/search.php" method="post"> 
+			<br/><br />
 			<div style="float:right;">
 				<span class="lang" onmouseover="showlang()" onmouseout="HideLang()">▶ language</span>
 			</div>

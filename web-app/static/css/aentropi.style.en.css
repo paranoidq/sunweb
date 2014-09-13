@@ -28,7 +28,7 @@ a.no_underline{text-decoration:none;}
 .head_tools ul li{float:right;margin-right:15px;color:#929293;}
 .head_tools ul li a{color:#929293}
 .head_tools ul li a:hover{color:#0054a0}
-.head_tools .lang{color:#2c9fe1; margin-right:10px; cursor:pointer;}
+.head_tools .lang{color:#2c9fe1; margin-right:45px; cursor:pointer;}
 .head_tools .sinput{border:1px solid #91b2d2; width:113px; height:16px; margin-right:8px; }
 .head_tools .search_but{ vertical-align:middle;   line-height:18px;}
 .index_banner{position:relative;height:235px;}
