@@ -172,7 +172,7 @@
 					
 					<br/><br/>
 					
-					<div class="subpage_banner">
+					<div class="subpage_banner" >
 						<img src="$!{viewUtil.getContextPath()}/static/images/about04.png" border="0"/>
 					</div>
 				</div>

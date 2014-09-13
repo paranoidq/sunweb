@@ -1,7 +1,7 @@
 <div class="footer">
 	<hr></hr>
 	<div class="copyright">Copyright © 2014 &nbsp;AENTROPI Ltd. &nbsp;All rights reserved. </div>
-	<div class="head_tools">
+	<!--<div class="head_tools">
 		<form action="/webroot/search.php" method="post"> 
 			<div style="float:right;">
 				<span class="lang" onmouseover="showlang()" onmouseout="HideLang()">▶ language</span>
@@ -14,6 +14,6 @@
 			</div>
 		</form>
 		<div class="clear"></div>
-	</div>
+	</div>--!>
 </div>
 
