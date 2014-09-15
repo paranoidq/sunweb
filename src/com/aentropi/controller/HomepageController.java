@@ -1,5 +1,9 @@
 package com.aentropi.controller;
 
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +20,15 @@ public class HomepageController {
 	
 	@Autowired
 	HomepageService hpService;
+	
+	@RequestMapping("/favicon.ico")
+	public void favicon(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		request.getRequestDispatcher(
+				request.getContextPath() + "/static/images/favicon.ico")
+				.forward(request, response);
+	}
+
 	
 	@RequestMapping("/")
 	public String displayHomepage(Model model, HttpServletResponse response) {

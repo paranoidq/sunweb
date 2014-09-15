@@ -2,10 +2,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>aentropi</title>
 <link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/aentropi.style.en.css" type="text/css">
-<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/jquery-1.4.1.min.js"></script>
+<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/nivo-slider.css" type="text/css">
+<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/bar.css" type="text/css">
+<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/default.css" type="text/css">
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/common.js"></script>
-<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/autoscroll.js"></script>
-<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/jquery.d.imagechange.js"></script>
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/jquery.nivo.slider.js"></script>
+
+<link href="$!{viewUtil.getContextPath()}/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="$!{viewUtil.getContextPath()}/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 <script type="text/javascript">
 	var stop = false;
@@ -47,9 +52,6 @@
 		$("#nav_pop_"+navid).css('display','none');*/
 	}
 	
-	$(document).ready(function(){
-	        $("#scrollDiv").Scroll({line:1,speed:500,timer:5000,up:"btn1",down:"btn2"});
-	});
 
 </script>
 
