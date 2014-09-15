@@ -1,5 +1,5 @@
 <div class="footer">
-	<hr></hr>
+	<hr style="border-style:solid;size:1px;color:#a8a4a4"></hr>
 	<div class="copyright">Copyright © 2014 &nbsp;AENTROPI Ltd. &nbsp;All rights reserved. </div>
 	<!--<div class="head_tools">
 		<form action="/webroot/search.php" method="post"> 
