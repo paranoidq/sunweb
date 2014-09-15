@@ -3,26 +3,18 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 
-#parse("web/common/head.vm")
+
 <body>
 
 	#parse("web/common/header.vm")
 	<div style="width:960px;height:291px;margin:0 auto;position:relative;">
 	    #parse("web/common/navi.vm")
 		<!-- Banner Begin -->
-		<!--<div id="index_banner" class="index_banner" style="position:absolute;top:56px;left:0;z-index:88;width:960px;height:251px;"></div>-->
-		<div id="wrapper">
-			<div class="slider-wrapper theme-default">
-				<div id="slider" class="index_banner nivoSlider" style="position:absolute;top:56px;left:0;z-index:88;width:960px;height:350px;">
-					<img src="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_04_en.jpg" data-thumb="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_04_en.jpg" alt="" />
-		            <img src="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_05_en.jpg" data-thumb="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_05_en.jpg" alt=""/>
-		            <img src="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg" data-thumb="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg" alt=""/>
-		            <img src="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_07_en.jpg" data-thumb="$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_07_en.jpg" alt=""/>
-				</div>
-			</div>
-		</div>
+		<div id="index_banner" class="index_banner" style="position:absolute;top:56px;left:0;z-index:88;width:960px;height:251px;"></div>
 		<!-- Banner End -->
 	</div>
+	
+#parse("web/common/head.vm")
 	
 		
 	<div class="index_content">
@@ -93,10 +85,30 @@
 	
 	#parse("web/common/footer.vm")
 </body>
-	<script type="text/javascript">
-	    $(window).load(function() {
-	        $('#slider').nivoSlider();
-	    });
-    </script>
+
+<script language="JavaScript">
+	var data = [{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_04_en.jpg",href:"#",target:""},
+	            {title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_05_en.jpg",href:"#",target:""},
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_06_en.jpg",href:"#",target:""},
+				{title:"",desc:"",src:"$!{viewUtil.getContextPath()}/static/images/banner/index_20110729_07_en.jpg",href:"#",target:""}];
+				
+	$('#index_banner').d_imagechange({
+		data:data,
+		playTime:5000,
+		animateTime:1000,
+		desc:false,
+		title:false,
+		btn:false,
+		bg:false,
+		width:960,
+		height:350,
+		animateStyle:'o'//默认值'o',可以不写
+	});
+
+	if(typeof(MenuMoveWithScroll)=="function"){
+		window.setTimeout(MenuMoveWithScroll,1);
+	}
+
+</script>
 
 </html>
