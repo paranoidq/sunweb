@@ -347,8 +347,10 @@
                 
             // Generate random effect
             if(settings.effect === 'random'){
-                anims = new Array('sliceDownRight','sliceDownLeft','sliceUpRight','sliceUpLeft','sliceUpDown','sliceUpDownLeft','fold','fade',
-                'boxRandom','boxRain','boxRainReverse','boxRainGrow','boxRainGrowReverse');
+//                anims = new Array('sliceDownRight','sliceDownLeft','sliceUpRight','sliceUpLeft','sliceUpDown','sliceUpDownLeft','fade',
+//                'boxRandom','boxRain','boxRainReverse','boxRainGrow','boxRainGrowReverse');
+            	anims = new Array('sliceDownRight','sliceDownLeft','sliceUpRight','sliceUpLeft','sliceUpDown','sliceUpDownLeft','fade',
+                    'boxRainReverse','boxRainGrow','boxRainGrowReverse');
                 currentEffect = anims[Math.floor(Math.random()*(anims.length + 1))];
                 if(currentEffect === undefined) { currentEffect = 'fade'; }
             }
@@ -635,12 +637,12 @@
     
     //Default settings
     $.fn.nivoSlider.defaults = {
-        effect: 'random',
+        effect: 'fade',
         slices: 15,
         boxCols: 8,
         boxRows: 4,
         animSpeed: 1000,
-        pauseTime: 3000,
+        pauseTime: 6000,
         startSlide: 0,
         directionNav: true,
         controlNav: false,
