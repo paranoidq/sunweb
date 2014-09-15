@@ -3,7 +3,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 
-
+#parse("web/common/head.vm")
 <body>
 
 	#parse("web/common/header.vm")
@@ -23,8 +23,6 @@
 		</div>
 		<!-- Banner End -->
 	</div>
-	
-#parse("web/common/head.vm")
 	
 		
 	<div class="index_content">
