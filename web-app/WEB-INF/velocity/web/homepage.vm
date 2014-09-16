@@ -32,15 +32,15 @@
 		<div class="index_news">
 			<div class="index_content_title">
 				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)" style="margin-bottom:0px;">
-					<a href="$!{viewUtil.getContextPath()}/products" class="aWhite no_underline">
+					<a href="$!{viewUtil.getContextPath()}/news" class="aWhite no_underline">
 						<font style="font-size:18px;">News</font>
 					</a>
 				</li>
 			</div>
 			<ul>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=288" target="_blank">JA Solar P-Type Mono-Si Solar Cells Surpass 20% Conversion Efficiency</a></li>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=287" target="_blank">JA Solar to Supply 38.6 MW of Modules to Phoenix Solar for Georgia Solar Farm</a></li>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/aentropi/company/news.php?action=disp&amp;newid=285" target="_blank">JA Solar Multi-Si Solar Cells Reach Record Efficiency Levels</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news" target="_blank">▶ JA Solar P-Type Mono-Si Solar Cells Surpass 20% Conversion Efficiency</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news" target="_blank">▶ JA Solar to Supply 38.6 MW of Modules to Phoenix Solar for Georgia Solar Farm</a></li>
+				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news" target="_blank">▶ JA Solar Multi-Si Solar Cells Reach Record Efficiency Levels</a></li>
 			</ul>
 		</div>
 		<!-- Content News End -->
@@ -57,16 +57,16 @@
 			<table cellspacing="0" cellpadding="0" class="index_product_data">
 				<tbody>
 				<tr>
-					<td class="pname"><a class="aWhite" href="/webroot/products">Cell</a></td>
-					<td class="pdesc"><a class="aWhite" href="/webroot/products/">Mono Series</a> <br>  <!--<a class="aWhite" href="/webroot/products/" >Quasi-mono Series</a> <br/>--> <a class="aWhite" href="/webroot/products/">Poly Series</a></td>
+					<td class="pname"><a class="aWhite" href="$!{viewUtil.getContextPath()}/products">Cell</a></td>
+					<td class="pdesc"><a class="aWhite" href="$!{viewUtil.getContextPath()}/products">Mono Series</a> <br>  <!--<a class="aWhite" href="/webroot/products/" >Quasi-mono Series</a> <br/>--> <a class="aWhite" href="$!{viewUtil.getContextPath()}/products">Poly Series</a></td>
 				</tr>
 				<tr>
-					<td class="pname"><a class="aWhite" href="/webroot/products/modules.php">Module</a></td>
-					<td class="pdesc"><a class="aWhite" href="/webroot/products/modules.php">Mono-Crystalline Silicon Module</a> <br> <a class="aWhite" href="/webroot/products/modules.php">Poly-Crystalline Silicon Module</a></td>
+					<td class="pname"><a class="aWhite" href="$!{viewUtil.getContextPath()}/products">Module</a></td>
+					<td class="pdesc"><a class="aWhite" href="$!{viewUtil.getContextPath()}/products">Mono-Crystalline Silicon Module</a> <br> <a class="aWhite" href="$!{viewUtil.getContextPath()}/products">Poly-Crystalline Silicon Module</a></td>
 				</tr>
 				<tr>
-					<td class="pname"><a class="aWhite" href="/webroot/products/overview.php">PV System</a></td>
-					<td class="pdesc"><a class="aWhite" href="/webroot/products/overview.php">Services</a> <br> <a class="aWhite" href="/webroot/products/overview.php">Cases</a></td>
+					<td class="pname"><a class="aWhite" href="$!{viewUtil.getContextPath()}/products">PV System</a></td>
+					<td class="pdesc"><a class="aWhite" href="$!{viewUtil.getContextPath()}/products/2">Services</a> <br> <a class="aWhite" href="$!{viewUtil.getContextPath()}/products/5">Cases</a></td>
 				</tr>
 				</tbody>
 			</table>
@@ -86,7 +86,7 @@
 					</a>
 				</li>
 			</div>
-			<a href="$!{viewUtil.getContextPath()}/products/5"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.png"></a>
+			<a href="$!{viewUtil.getContextPath()}/products/5"><img src= "$!{viewUtil.getContextPath()}/static/images/case_img.png" style="box-shadow:0px 1px 5px 0px #4a4a4a;"></a>
 		</div>
 		<!-- Content Cases End -->
 		<div class="clear"></div>

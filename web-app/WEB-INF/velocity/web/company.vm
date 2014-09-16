@@ -171,14 +171,11 @@
 					</span>
 					
 					<br/><br/>
-					
-					<div class="subpage_banner" >
-						<img src="$!{viewUtil.getContextPath()}/static/images/about04.png" border="0"/>
-					</div>
 				</div>
-				<ul class="title" style="margin:0px 0 1px 15px; font-size:25px;">Positions</ul>
+				
 				<div class="content"  style="text-align:Justify; text-justify:inter-ideograph;">
-					<div style="margin-bottom:10px;" class="content_splitter"></div>
+					<ul class="title" style="margin:0px 0 0px 0px; font-size:15px; font-weight:bold; height:25px;">Positions</ul>
+					<div style="" class="content_splitter"></div>
 					<span style="line-height: 17px; font-size: 12px;">
 						<span style="line-height: 30px; font-size: 14px; font-weight: bold;">
 							<img src="$!{viewUtil.getContextPath()}/static/images/icon/li_dot.png" style="margin-right: 15px;"/>Asia Pacific Region
@@ -224,7 +221,7 @@
 					<span style="line-height: 17px; font-size: 12px; color:#2c9fe1">
 					Apply here: <u>HR@aentropi-power.com</u>
 					</span>
-					<br />
+					<br /><br />
 				</div>
 			</div>
 			
