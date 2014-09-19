@@ -32,7 +32,7 @@
 		<div class="index_news">
 			<div class="index_content_title">
 				<li onmouseover="ShowPopNav(this)" onmouseout="HidePopNav(this)" style="margin-bottom:0px;">
-					<a href="$!{viewUtil.getContextPath()}/news" class="aWhite no_underline">
+					<a href="$!{viewUtil.getContextPath()}/news" target="_blank" class="aWhite no_underline">
 						<font style="font-size:18px;">News</font>
 					</a>
 				</li>
