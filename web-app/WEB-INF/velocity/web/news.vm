@@ -35,9 +35,81 @@
 		<div class="pageright">
 			<div class="pagemain">
 				<ul class="title">News</ul>
-				<span style="line-height: 17px; font-size: 15px; margin-left:15px;">
-						Sorry,this page is under construction...
-				</span>
+				
+				#foreach($el in $newsList)
+					<div style="line-height: 17px; font-size: 12px; margin-top:12px; margin-left:15px;">
+						<span style="color:#2c9fe1">$viewUtil.fPageTime($el.timestamp)</span>
+						<span style="margin-left:10px;">
+							<a target="_blank" href="$!{viewUtil.getContextPath()}/news/id=$el.id" style="color:#6e6e70">$el.title</a>
+						</span>
+					</div>
+				#end
+				<style>
+					.pagination-centered {
+						text-align: right;
+						padding-right:30px;
+					}
+					.pagination {
+						height:20px;
+						margin:20px 0;
+					}
+					.pagination ul {
+						display: inline-block;
+						margin-bottom:0px;
+						margin-left:0px;
+						box-shadow:0 1px 2px rgba(0,0,0,0.05);
+					}
+					.pagination ul, ol {
+						padding:0;
+						margin: 0 0 10px 0px;
+					}
+					.pagination ul>li {
+						display:inline;
+						line-height:20px;
+					}
+					.pagination ul>li>a, .pagination ul>li>span {
+						float:left;
+						padding: 0 14px;
+						line-height:20px;
+						text-decoration:none;
+						border: 1px solid #ddd;
+					}
+					
+					.pagination select {
+						vertical-align:top;
+						width:60px;
+						background-color :#fff;
+						border: 1px solid #ccc;
+						margin-bottom: 9px;
+						height : 22px;
+						color: #2c9fe1;
+					}
+				</style>
+				
+				
+				<div class="pagination pagination-centered">
+					<ul>
+						#if ($prePageIndex == 0) 
+							<li class="disabled"><a href="javascript:void(0)">PREV</a></li>
+						#else
+							<li><a href="$!{viewUtil.getContextPath()}/admin/article_list-${topCatId}-${subCatId}-${prePageIndex}" >PREV</a></li>
+						#end
+				    	#if ($pageIndex >= $pageCount)
+					    	<li class="disabled"><a href="javascript:void(0)">NEXT</a></li>
+				    	#else
+				    		<li><a href="$!{viewUtil.getContextPath()}/admin/article_list-${topCatId}-${subCatId}-${nextPageIndex}">NEXT</a></li>
+				    	#end
+				    </ul>
+					<select onchange="top.location=this.value;">
+						#foreach($i in [1..$pageCount]) 
+							#if ($i == $pageIndex)
+								<option value="$!{viewUtil.getContextPath()}/admin/news/p=${i}" selected>$i</option>
+							#else
+								<option value="$!{viewUtil.getContextPath()}/admin/news/p=${i}">$i</option>
+							#end
+						#end
+					</select>
+				</div>
 				<br />
 			</div>
 			<!--<table class="featuredprojects_bottom">

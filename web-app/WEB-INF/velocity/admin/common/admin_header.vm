@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>Admin Dashboard</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/bootstrap-responsive.min.css" />
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/unicorn.main.css" />
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/uniform.css" />
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/unicorn.grey.css"/>
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/chosen.css"/>
+	    
+	    <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/excanvas.min.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.min.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.ui.custom.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/unicorn.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.uniform.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.validate.js"></script>
+        <style type="text/css">
+        	table{
+				width:100%;
+				table-layout:fixed;
+			}
+			td {
+				white-space:nowrap;
+				overflow: hidden;
+				text-overflow:ellipsis;
+			}
+			td img{
+				max-width:45px;
+				min-width:45px;
+				max-height:30px;
+				min-height:30px;
+			} 
+			
+		</style>
+		<script type="text/javascript">
+        	$(document).ready(function() {
+        		if($("input")[0]) {
+	        		$("input")[0].focus();
+        		}
+        	});
+        </script>
+	</head>
+	
+	<body>
+	
+		<div id="header">
+			<h1><a href="#">管理员平台</a></h1>		
+		</div>
+		<div id="search" style="top:10px;">
+			<i class="icon-white icon-warning-sign"></i><span class="text" style="color:#AAAAAA;">&nbsp;&nbsp;请使用Chrome、Firefox、搜狗高速模式、IE9以上等高级浏览器</span>
+		</div>
+		<div id="user-nav" class="navbar navbar-inverse">
+            <ul class="nav btn-group">
+                <li class="btn btn-inverse" ><a title="" href="#"><i class="icon icon-user"></i> <span class="text"><strong><span id="login_admin">$admin</span></strong></span></a></li>
+                <li class="btn btn-inverse"><a title="" href="$!{viewUtil.getContextPath()}/logout"><i class="icon icon-share-alt"></i> <span class="text">注销</span></a></li>
+            </ul>
+        </div>

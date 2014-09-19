@@ -38,9 +38,11 @@
 				</li>
 			</div>
 			<ul>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news" target="_blank">▶ JA Solar P-Type Mono-Si Solar Cells Surpass 20% Conversion Efficiency</a></li>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news" target="_blank">▶ JA Solar to Supply 38.6 MW of Modules to Phoenix Solar for Georgia Solar Farm</a></li>
-				<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news" target="_blank">▶ JA Solar Multi-Si Solar Cells Reach Record Efficiency Levels</a></li>
+				#if($!news)
+					#foreach($el in $news)
+						<li><a class="aWhite" href="$!{viewUtil.getContextPath()}/news/id=${el.id}" target="_blank">▶ $el.title</a></li>
+					#end
+				#end
 			</ul>
 		</div>
 		<!-- Content News End -->
@@ -82,7 +84,7 @@
 						<font style="font-size:18px;">Cases</font>
 					</a>
 					<a class="index_more" href="$!{viewUtil.getContextPath()}/products/5">
-						<font style="font-size:13px; float:right;">...more</font>
+						<font style="font-size:13px; float:right;">more</font>
 					</a>
 				</li>
 			</div>

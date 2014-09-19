@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+ "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="NEWS">
+	<!-- 为类型定义别名 -->
+	<typeAlias alias="news" type="com.aentropi.entity.NewsBean" />
+	<!-- 定义resultMap,将query结果映射为bean -->
+	<resultMap id="NewsResultMap" class="news">
+		<result property="id" column="ID"/>
+		<result property="title" column="TITLE" />
+		<result property="content" column="CONTENT" />
+		<result property="timestamp" column="TIMESTAMP" />
+	</resultMap>
+	
+	<select id="selectNewsById" resultMap="NewsResultMap" parameterClass="int">
+		<![CDATA[
+		SELECT *
+		FROM news
+		WHERE id = #value#
+		]]>
+	</select>
+	
+	
+	<select id="selectLastestNews" resultMap="NewsResultMap" parameterClass="int">
+		<![CDATA[
+		SELECT *
+		FROM news
+		ORDER BY timestamp DESC
+		LIMIT #value#
+		]]>
+	</select>
+	
+	<select id="selectNewsByPageIndexAndPageSize" resultMap="NewsResultMap" parameterClass="java.util.Map">
+		<![CDATA[
+		SELECT *
+		FROM news
+		ORDER BY timestamp DESC
+		LIMIT #start#, #end#
+		]]>
+	</select>
+	
+	
+	<select id="selectNewsCount" resultClass="int" >		
+		<![CDATA[
+        	SELECT count(id)
+        	FROM news
+		]]>
+	</select>
+	
+	<insert id="insertNews" parameterClass="news">		
+		<![CDATA[
+        	INSERT INTO news
+			(TITLE,CONTENT,TIMESTAMP)
+    		VALUES (#title#,#content#, #timestamp#)
+		]]>
+	</insert>
+	
+	<delete id="deleteNews" parameterClass="int">
+		<![CDATA[
+			delete from news where ID = #id#
+		]]>
+	</delete>
+	
+	<update id="updateNews" parameterClass="news">
+		<![CDATA[
+			UPDATE news
+			SET TITLE = #title#,
+				CONTENT = #content#
+			WHERE ID = #id#
+		]]>
+	</update>
+	
+	
+	
+</sqlMap>

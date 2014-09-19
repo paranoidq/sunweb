@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+
+#parse("web/common/head.vm")
+<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/css/superfish.css" type="text/css">
+<script type="text/javascript" src="$!{viewUtil.getContextPath()}/static/js/superfish.js"></script>
+
+<style>
+	p {
+		margin:0px;
+	}
+	p img {
+		max-width:700px;
+	}
+</style>
+
+<body>
+	#parse("web/common/header.vm")
+	<div style="width:960px;height:50px;margin:0 auto;position:relative;">
+	    #parse("web/common/navi.vm")
+	</div>
+	<div class="currpath nav_color_theme">
+		<span style="margin-left:18px;">
+			You are here:&nbsp;
+			<a href="$!{viewUtil.getContextPath()}/">Home</a> - 
+			News
+		</span>
+	</div>
+	<div class="pagebody">
+		<div class="pageleft">
+			<div id="pageleft_inner" class="pageleft_inner">
+				<div id="slide" class="slide">
+					<ul class="submenu">
+						<li class=""><a href="$!{viewUtil.getContextPath()}/company/">About Us</a></li>
+						<li class=""><a href="$!{viewUtil.getContextPath()}/products/">Products & Services</a></li>
+						<li class="close"><a href="$!{viewUtil.getContextPath()}/news/">News</a></li>
+						<li class="last"><a href="$!{viewUtil.getContextPath()}/contact/">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="pageright">
+			<div class="pagemain">
+				<img src="$!{viewUtil.getContextPath()}/static/images/news_img.png"/>
+				<div style="font-size:16px; font-weight:bold;margin:25px 20px 10px 0px; color:#2c9fe1;"">$!news.title</div>
+				#if ($!news.timestamp)
+					<div style="margin:5px 0px 15px 0; color:#2c9fe1;">$viewUtil.fPageTime($news.timestamp)</div>
+				#end
+				<div style="text-align:Justify; text-justify:inter-ideograph; width:700px; margin:10px 0;">
+					<span>$!news.content</span>
+				</div>
+				
+				<br />
+			</div>
+			<!--<table class="featuredprojects_bottom">
+				<tr>
+					<td><a href="javascript:window.scrollTo(0,0)">TOP</a></td>
+				</tr>
+			</table>--!>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	#parse("web/common/footer.vm")
+	
+</body>
+
+<script type="text/javascript">
+	jQuery(function(){
+		jQuery('ul.sf-menu').superfish();
+	});
+	if(typeof(MenuMoveWithScroll)=="function"){
+		window.setTimeout(MenuMoveWithScroll,1);
+	}
+</script>
+</html>
+

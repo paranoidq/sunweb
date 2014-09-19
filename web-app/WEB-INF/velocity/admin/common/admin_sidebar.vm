@@ -1,0 +1,8 @@
+
+
+<div id="sidebar">
+	<a href="#" class="visible-phone"><i class="icon icon-home"></i>Home</a>
+	<ul>
+		<li id="sidebar_li_1"><a href="$!{viewUtil.getContextPath()}/admin/article_list"><i class="icon icon-th-list"></i><span>News管理</span></a></li>
+	</ul>
+</div>

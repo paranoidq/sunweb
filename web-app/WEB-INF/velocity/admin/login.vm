@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>管理员登陆</title>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" href="$!{viewUtil.getContextPath()}/static/bootstrap/css/unicorn.login.css" />
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.min.js"></script>
+        <script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/unicorn.login.js"></script> 
+        <script type="text/javascript">
+        	$(document).ready(function() {
+        		$("input")[0].focus();
+        	});
+        </script>
+    </head>
+    <body>
+        <div id="logo">
+            <img src="$!{viewUtil.getContextPath()}/static/bootstrap/img/logo.png" alt="" />
+        </div>
+        <div id="loginbox">            
+            <form id="loginform" class="form-vertical" action="$!{viewUtil.getContextPath()}/login" method="post">
+				<p>Enter username and password to continue.</p>
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span><input name="username" type="text" placeholder="用户名" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-lock"></i></span><input name="password" type="password" placeholder="密码" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <span class="pull-right"><input type="submit" class="btn btn-inverse" value="Login" /></span>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

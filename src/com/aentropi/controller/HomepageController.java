@@ -1,6 +1,7 @@
 package com.aentropi.controller;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -12,14 +13,20 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.aentropi.entity.NewsBean;
 import com.aentropi.service.HomepageService;
+import com.aentropi.service.NewsService;
 
 
 @Controller
 public class HomepageController {
 	
+	public static final int NEWS_COUNT = 3;
+	
 	@Autowired
 	HomepageService hpService;
+	@Autowired
+	NewsService newsService;
 	
 	@RequestMapping("/favicon.ico")
 	public void favicon(HttpServletRequest request, HttpServletResponse response)
@@ -33,6 +40,8 @@ public class HomepageController {
 	@RequestMapping("/")
 	public String displayHomepage(Model model, HttpServletResponse response) {
 		///
+		List<NewsBean> list = newsService.getLatestNews(NEWS_COUNT);
+		model.addAttribute("news", list);
 		return "web/homepage";
 	}
 	
@@ -63,11 +72,6 @@ public class HomepageController {
 	public String displayProducts(Model model, HttpServletResponse response, @PathVariable("sectionId") int sectionId) {
 		model.addAttribute("sectionId", sectionId);
 		return "web/products";
-	}
-	
-	@RequestMapping("/news")
-	public String displayNews(Model model, HttpServletResponse response) {
-		return "web/news";
 	}
 	
 }

@@ -12,5 +12,7 @@
      useStatementNamespaces="true"
     />
 	<sqlMap resource="PRODUCT_SqlMap.xml" />
+	<sqlMap resource="NEWS_SqlMap.xml" />
+	<sqlMap resource="ADMIN_SqlMap.xml" />
 	
 </sqlMapConfig>

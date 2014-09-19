@@ -1,0 +1,144 @@
+#parse("admin/common/admin_header.vm")
+#parse("admin/common/admin_sidebar.vm")	
+<script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.chosen.js"></script>
+
+<div id="content">
+	<div id="content-header">
+		<h1>News管理</h1>
+	</div>
+	<div id="breadcrumb">
+		<a href="$!{viewUtil.getContextPath()}/admin/news_list" title="Go to Home" class="tip-bottom"><i class="icon-home"></i>首页</a>
+		<a href="#" class="current">News管理</a>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="widget-box">
+					<div class="widget-title">
+						<span class="icon">
+							<i class="icon-th"></i>
+						</span>
+						<h5>News列表</h5>
+						<span class="icon" id="add_display_btn">
+							<a href="$!{viewUtil.getContextPath()}/admin/addnews" class="btn btn-primary btn-mini">
+								<i class="icon-plus icon-white"></i>添加News
+							</a>
+						</span>
+					</div> <!-- end of widget title-->
+					
+					<div class="widget-content padding">
+						<table class="table table-bordered table-striped with-check">
+							<thead>
+								<tr>
+									<th style="width:8%">ID</th>
+									<th>News标题</th>
+									<th style="width:19%">发布时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								#foreach($el in $newsList)
+									<tr>
+										<td>$el.id</td>
+										<td title="$el.title">$el.title</td>
+										<td title='$viewUtil.fTime($el.timestamp)'>$viewUtil.fTime($el.timestamp)</td>
+										<td>
+											<a href="$!{viewUtil.getContextPath()}/admin/updatenews/id=$el.id" class="btn btn-info" title="修改" id="alter_btn"><i class="icon-tag icon-white"></i>修改</a>
+											<button class="btn btn-danger" title="删除" id="del_btn"><i class=" icon-trash icon-white"></i>删除</button>
+										</td>
+									</tr>
+								#end
+							</tbody>
+						</table>
+						<div class="pagination pagination-centered"">
+							<ul>
+								#if ($prePageIndex == 0) 
+									<li class="disabled"><a href="javascript:void(0)">前一页</a></li>
+								#else
+									<li><a href="$!{viewUtil.getContextPath()}/admin/news/p=${prePageIndex}" >前一页</a></li>
+								#end
+						    	#if ($pageIndex >= $pageCount)
+							    	<li class="disabled"><a href="javascript:void(0)">后一页</a></li>
+						    	#else
+						    		<li><a href="$!{viewUtil.getContextPath()}/admin/news/p=${nextPageIndex}">后一页</a></li>
+						    	#end
+							</ul>
+							<select style="vertical-align:top; height:inherit; width:80px" onchange="top.location=this.value;">
+								#foreach($i in [1..$pageCount]) 
+									#if ($i == $pageIndex)
+										<option value="$!{viewUtil.getContextPath()}/admin/news/p=${i}" selected>$i</option>
+									#else
+										<option value="$!{viewUtil.getContextPath()}/admin/news/p=${i}">$i</option>
+									#end
+								#end
+							</select>
+						</div>
+					</div>
+				</div> <!-- end of widget box-->
+			
+			</div>	<!-- end of span12-->
+		</div>	<!-- end of row-fluid -->
+	</div> <!-- end of container-fluid -->
+</div>
+
+
+<div style="display:none" id="del_dialog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-body">
+	    <span>是否确定删除？</span>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" id="yes_del">是</button>
+	    <button class="btn" data-dismiss="modal" aria-hidden="true" id="no_del">否</button>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#del_dialog").css("display","none");
+		var _id = 0;
+		var context_path = "$!{viewUtil.getContextPath()}";
+		
+		// show del_dialog
+		$("button[id='del_btn']").bind("click", function(){
+			_id = $(this).parents("tr").find("td:eq(0)").html().trim();
+			if(!$.browser.msie) {
+				$("#del_dialog").css("display","block");
+				$("#del_dialog").modal("show");
+				
+			} else {
+				alert("已删除news");
+				$.ajax({
+					url: context_path + "/admin/deletenews",
+					type: "post",
+					data: {id:_id},
+					dataType: "html",
+					success:function(data){
+						location.reload();
+					},
+					error:function(){
+						alert("删除错误，请重试！");
+					}
+				});
+			}
+			
+		});
+		// yes_del
+		$("#yes_del").bind("click", function(){
+			$.ajax({
+				url: context_path + "/admin/deletenews",
+				type: "post",
+				data: {id:_id},
+				dataType: "html",
+				success:function(data){
+					$("#del_dialog").modal("hide");
+					location.reload();
+				},
+				error:function(){
+					$("#del_dialog").modal("hide");
+					alert("删除错误，请重试！");
+				}
+			});
+		});
+	});
+</script>
+#parse("admin/common/admin_footer.vm")

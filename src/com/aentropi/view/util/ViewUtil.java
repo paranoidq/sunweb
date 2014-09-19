@@ -1,10 +1,28 @@
 package com.aentropi.view.util;
 
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+
 public class ViewUtil {
 	public static String CONTEXT_PATH = "";
 
 	public static String getContextPath() {
 		return CONTEXT_PATH;
+	}
+	
+	
+	public static String fTime(long timestamp) {
+		SimpleDateFormat sdf = new SimpleDateFormat(
+				"yyyy-MM-dd HH:mm");
+		Timestamp ts = new Timestamp(timestamp);
+		return sdf.format(ts);
+	}
+	
+	public static String fPageTime(long timestamp) {
+		SimpleDateFormat sdf = new SimpleDateFormat(
+				"yyyy-MM-dd");
+		Timestamp ts = new Timestamp(timestamp);
+		return sdf.format(ts);
 	}
 
 	/*public static String getBreadcrumb(int catId) {
@@ -41,22 +59,6 @@ public class ViewUtil {
 		try {
 			Date date = sdf.parse(time);
 			sdf = new SimpleDateFormat("yyyy-MM-dd");
-			return sdf.format(date);
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	public static String fTime(String time) {
-		if (time == null || time.isEmpty()) {
-			return null;
-		}
-		SimpleDateFormat sdf = new SimpleDateFormat(
-				"EEE MMM dd HH:mm:ss zzz yyyy", Locale.US);
-		try {
-			Date date = sdf.parse(time);
-			sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			return sdf.format(date);
 		} catch (ParseException e) {
 			e.printStackTrace();

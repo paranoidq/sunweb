@@ -1,0 +1,98 @@
+#parse("admin/common/admin_header.vm")
+#parse("admin/common/admin_sidebar.vm")	
+<script src="$!{viewUtil.getContextPath()}/static/bootstrap/js/jquery.chosen.js"></script>
+
+<div id="content">
+	<div id="content-header">
+		<h1>News管理</h1>
+	</div>
+	<div id="breadcrumb">
+		<a href="$!{viewUtil.getContextPath()}/admin/news/p=1" title="Go to Home" class="tip-bottom"><i class="icon-home"></i>首页</a>
+		<a href="#" class="current">News管理</a>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="widget-box">
+					<div class="widget-title">
+						<span class="icon">
+							<i class="icon-align-justify"></i>									
+						</span>
+						<h5>添加news</h5>
+					</div> <!-- end of widget title-->
+					
+					<div class="widget-content padding">
+						<form action="javascript:void(0)" method="post" class="form-horizontal">
+							<div class="control-group">
+								<label class="control-label">News标题</label>
+								<div class="controls">
+									<input type="text" id="title" name="title" value="" />
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls" style="margin-left:0px">
+									<textarea id="editor" name="content" style=""></textarea>
+								</div>
+							</div>
+							<div class="control-group" >
+								<div class="controls" >
+									<button class="btn btn-primary" id="yes_add">&nbsp;&nbsp;提交&nbsp;&nbsp;</button>
+							    </div>
+							</div>
+						</form>
+					</div>
+				</div> <!-- end of widget box-->
+			
+			</div>	<!-- end of span12-->
+		</div>	<!-- end of row-fluid -->
+	</div> <!-- end of container-fluid -->
+</div>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var context_path = "${viewUtil.getContextPath()}";
+	
+		// yes_add
+		$("#yes_add").bind("click", function(){
+			$("#title").parent().parent().removeClass("error");
+			$("#req_title").remove();
+		
+			editor.sync();
+			var _id = $("#news_id").val();
+			var _html = $("#editor").val();
+			var _title = $("#title").val();
+			if(_title == "") {
+				$("#title").parent().parent().addClass("error");
+				$("#title").parent().append('<span id="req_title" for="required" generated="true" class="help-inline">请填写news标题</span>');
+			} else {
+				$.ajax({
+					url: context_path + "/admin/addnews",
+					type: "post",
+					data: {id:_id, title:_title, content:_html},
+					dataType: "html",
+					success:function(data){
+						window.location.href = context_path + "/admin/news/p=1";
+					},
+					error:function(){
+						window.location.href = context_path + "/admin/news/p=1";
+					}
+				});
+			}
+		});
+	});
+</script>
+
+<script charset="utf-8" src="$!{viewUtil.getContextPath()}/static/editor/kindeditor.js"></script>
+<script charset="utf-8" src="$!{viewUtil.getContextPath()}/static/editor/lang/zh_CN.js"></script>
+<script>
+    KindEditor.ready(function(K) {
+            var _width_s = $(".controls").css("width");
+            var _width = _width_s.substring(0, _width_s.length-2);
+            window.editor = K.create('#editor', {
+            	width : (_width-40)+'px',
+            	minHeight : '400px'
+            });
+    });
+</script>
+#parse("admin/common/admin_footer.vm")
