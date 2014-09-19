@@ -45,7 +45,7 @@ public class AdminController {
 		}
 	}
 	
-	@RequestMapping(value="/logout", method=RequestMethod.POST)
+	@RequestMapping(value="/logout")
 	public void logoff(Model model, HttpServletResponse response) {
 		SecurityContextHolder.getSecurityContext().setAdmin(null);
 		try {
