@@ -18,11 +18,11 @@
 	<context:component-scan base-package="com.aentropi.controller" />
 	<context:component-scan base-package="com.aentropi.filter" />
 
-	<!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-    	<property name="url" value="jdbc:mysql://localhost:3306/aentropi_database?useUnicode=true&amp;characterEncoding=UTF-8"/>
+    	<property name="url" value="jdbc:mysql://162.144.118.173:3306/aentropi_database?useUnicode=true&amp;characterEncoding=UTF-8"/>
     	<property name="username" value="root" />
-    	<property name="password" value="root" />
+    	<property name="password" value="daphnet#Z881117" />
 	</bean>
 	
 
@@ -30,12 +30,9 @@
 		<property name="configLocation" value="classpath:sqlMapConfig.xml" />
   		<property name="dataSource" ref="dataSource" />
  	</bean>
- 	-->
 	
-	<!--<bean id="adminService" class="cn.seu.cose.service.AdminService" />
-	<bean id="designerService" class="cn.seu.cose.service.DesignerService" />
-	<bean id="categoryService" class="cn.seu.cose.service.CategoryService" />-->
-	
+	<bean id="newsService" class="com.aentropi.service.NewsService" />
+	<bean id="adminService" class="com.aentropi.service.AdminService" />
 		
     <!-- 启用缓存注解功能，这个是必须的，否则注解不会生效，另外，该注解一定要声明在spring主配置文件中才会生效 	-->
 	<!--<cache:annotation-driven cache-manager="cacheManager"/>
