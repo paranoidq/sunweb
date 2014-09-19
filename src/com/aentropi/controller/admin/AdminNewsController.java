@@ -1,5 +1,6 @@
 package com.aentropi.controller.admin;
 
+import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.aentropi.entity.NewsBean;
 import com.aentropi.service.NewsService;
 import com.aentropi.util.PageUtil;
+import com.aentropi.view.util.ViewUtil;
 
 
 @Controller
@@ -24,6 +26,18 @@ public class AdminNewsController extends AbstractAdminController{
 	
 	@Autowired
 	private NewsService newsService;
+	
+	
+	@RequestMapping(value="/admin", method=RequestMethod.GET) 
+	public void getAdminDefault(Model model, HttpServletResponse response) {
+		putAdmin(model, response);
+		try {
+			response.sendRedirect(ViewUtil.getContextPath() + "/admin/news");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	
 	@RequestMapping(value="/admin/news", method=RequestMethod.GET) 
 	public String getNewsDefault(Model model, HttpServletResponse response) {
